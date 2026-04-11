@@ -1,0 +1,1959 @@
+[
+  {
+    "title": "Proton VPN",
+    "slug": "proton-vpn",
+    "description": "Privacy-first VPN service with a strong security reputation and a clean upgrade funnel.",
+    "category": "privacy",
+    "tags": [
+      "vpn",
+      "privacy",
+      "security"
+    ],
+    "url": "https://protonvpn.com",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.8,
+    "views": "1.2M",
+    "status": "ONLINE",
+    "note": "affiliate-ready",
+    "dateAdded": "2025-01-10"
+  },
+  {
+    "title": "NordVPN",
+    "slug": "nordvpn",
+    "description": "Mainstream VPN with strong consumer conversion potential and broad brand recognition.",
+    "category": "privacy",
+    "tags": [
+      "vpn",
+      "privacy",
+      "streaming"
+    ],
+    "url": "https://nordvpn.com",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.7,
+    "views": "3.5M",
+    "status": "ONLINE",
+    "note": "affiliate-ready",
+    "dateAdded": "2025-01-11"
+  },
+  {
+    "title": "Surfshark",
+    "slug": "surfshark",
+    "description": "Low-cost VPN option that often converts well for price-sensitive traffic.",
+    "category": "privacy",
+    "tags": [
+      "vpn",
+      "privacy",
+      "budget"
+    ],
+    "url": "https://surfshark.com",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.6,
+    "views": "2.9M",
+    "status": "ONLINE",
+    "note": "affiliate-ready",
+    "dateAdded": "2025-01-12"
+  },
+  {
+    "title": "Proton Mail",
+    "slug": "proton-mail",
+    "description": "Encrypted email platform with a trusted privacy brand and easy upsell path.",
+    "category": "privacy",
+    "tags": [
+      "email",
+      "privacy",
+      "encrypted"
+    ],
+    "url": "https://proton.me/mail",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "4.1M",
+    "status": "ONLINE",
+    "note": "brand anchor",
+    "dateAdded": "2025-01-13"
+  },
+  {
+    "title": "SimpleLogin",
+    "slug": "simplelogin",
+    "description": "Email aliasing service for inbox protection, lead segmentation, and account shielding.",
+    "category": "privacy",
+    "tags": [
+      "email",
+      "alias",
+      "privacy"
+    ],
+    "url": "https://simplelogin.io",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.7,
+    "views": "800K",
+    "status": "ONLINE",
+    "note": "privacy stack",
+    "dateAdded": "2025-01-14"
+  },
+  {
+    "title": "Mullvad VPN",
+    "slug": "mullvad-vpn",
+    "description": "Strong anonymity-first VPN with low-friction signup and a clean trust signal.",
+    "category": "privacy",
+    "tags": [
+      "vpn",
+      "anonymity",
+      "privacy"
+    ],
+    "url": "https://mullvad.net",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.9,
+    "views": "2.3M",
+    "status": "ONLINE",
+    "note": "trust play",
+    "dateAdded": "2025-01-15"
+  },
+  {
+    "title": "Tor Project",
+    "slug": "tor-project",
+    "description": "Core privacy infrastructure for onion routing, anonymous browsing, and access resilience.",
+    "category": "privacy",
+    "tags": [
+      "tor",
+      "browser",
+      "network"
+    ],
+    "url": "https://www.torproject.org",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.9,
+    "views": "9.1M",
+    "status": "ONLINE",
+    "note": "essential",
+    "dateAdded": "2025-01-16"
+  },
+  {
+    "title": "Bitwarden",
+    "slug": "bitwarden",
+    "description": "Password manager with a strong open-source reputation and business upsell potential.",
+    "category": "privacy",
+    "tags": [
+      "passwords",
+      "vault",
+      "security"
+    ],
+    "url": "https://bitwarden.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.9,
+    "views": "3.1M",
+    "status": "ONLINE",
+    "note": "core utility",
+    "dateAdded": "2025-01-17"
+  },
+  {
+    "title": "1Password",
+    "slug": "1password",
+    "description": "Premium password manager with strong consumer recognition and team expansion upside.",
+    "category": "privacy",
+    "tags": [
+      "passwords",
+      "vault",
+      "teams"
+    ],
+    "url": "https://1password.com",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.8,
+    "views": "4.0M",
+    "status": "ONLINE",
+    "note": "affiliate-ready",
+    "dateAdded": "2025-01-18"
+  },
+  {
+    "title": "Tails",
+    "slug": "tails",
+    "description": "Portable privacy-focused operating system for compartmentalized sessions and safe browsing.",
+    "category": "privacy",
+    "tags": [
+      "os",
+      "privacy",
+      "live-usb"
+    ],
+    "url": "https://tails.net",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "1.7M",
+    "status": "ONLINE",
+    "note": "specialized",
+    "dateAdded": "2025-01-19"
+  },
+  {
+    "title": "Brave Browser",
+    "slug": "brave-browser",
+    "description": "Privacy-leaning browser with mainstream reach and strong onboarding familiarity.",
+    "category": "privacy",
+    "tags": [
+      "browser",
+      "privacy",
+      "ads"
+    ],
+    "url": "https://brave.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.5,
+    "views": "8.6M",
+    "status": "ONLINE",
+    "note": "mass market",
+    "dateAdded": "2025-01-20"
+  },
+  {
+    "title": "Firefox",
+    "slug": "firefox",
+    "description": "Open browser platform with strong privacy customization and extension depth.",
+    "category": "privacy",
+    "tags": [
+      "browser",
+      "open-source",
+      "extensions"
+    ],
+    "url": "https://www.mozilla.org/firefox/",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "12M",
+    "status": "ONLINE",
+    "note": "baseline",
+    "dateAdded": "2025-01-21"
+  },
+  {
+    "title": "Signal",
+    "slug": "signal",
+    "description": "Encrypted messaging app with strong trust, mainstream recognition, and clean recommendations.",
+    "category": "privacy",
+    "tags": [
+      "messaging",
+      "encrypted",
+      "mobile"
+    ],
+    "url": "https://signal.org",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "9.4M",
+    "status": "ONLINE",
+    "note": "messaging",
+    "dateAdded": "2025-01-22"
+  },
+  {
+    "title": "DuckDuckGo Browser",
+    "slug": "duckduckgo-browser",
+    "description": "Simple privacy browser and search ecosystem for mainstream visitors.",
+    "category": "privacy",
+    "tags": [
+      "browser",
+      "search",
+      "privacy"
+    ],
+    "url": "https://duckduckgo.com/app",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.4,
+    "views": "2.2M",
+    "status": "ONLINE",
+    "note": "easy adoption",
+    "dateAdded": "2025-01-23"
+  },
+  {
+    "title": "Nmap",
+    "slug": "nmap",
+    "description": "Legendary network scanner that anchors any security tools collection.",
+    "category": "security-tools",
+    "tags": [
+      "scanner",
+      "network",
+      "audit"
+    ],
+    "url": "https://nmap.org",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.9,
+    "views": "8.1M",
+    "status": "ONLINE",
+    "note": "official",
+    "dateAdded": "2025-02-01"
+  },
+  {
+    "title": "Wireshark",
+    "slug": "wireshark",
+    "description": "Protocol analyzer for packet inspection, troubleshooting, and network learning.",
+    "category": "security-tools",
+    "tags": [
+      "packets",
+      "analysis",
+      "network"
+    ],
+    "url": "https://www.wireshark.org",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.7,
+    "views": "5.5M",
+    "status": "ONLINE",
+    "note": "official",
+    "dateAdded": "2025-02-02"
+  },
+  {
+    "title": "Metasploit",
+    "slug": "metasploit",
+    "description": "Penetration testing framework with broad brand recognition and reference value.",
+    "category": "security-tools",
+    "tags": [
+      "pentest",
+      "framework",
+      "modules"
+    ],
+    "url": "https://www.metasploit.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "6.7M",
+    "status": "ONLINE",
+    "note": "reference",
+    "dateAdded": "2025-02-03"
+  },
+  {
+    "title": "Malwarebytes",
+    "slug": "malwarebytes",
+    "description": "Consumer-friendly malware defense product with strong monetization potential.",
+    "category": "security-tools",
+    "tags": [
+      "antimalware",
+      "consumer",
+      "cleanup"
+    ],
+    "url": "https://www.malwarebytes.com",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.6,
+    "views": "7.2M",
+    "status": "ONLINE",
+    "note": "affiliate-ready",
+    "dateAdded": "2025-02-04"
+  },
+  {
+    "title": "Burp Suite",
+    "slug": "burp-suite",
+    "description": "Web security testing platform used heavily across application security workflows.",
+    "category": "security-tools",
+    "tags": [
+      "web",
+      "testing",
+      "proxy"
+    ],
+    "url": "https://portswigger.net/burp",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "3.7M",
+    "status": "ONLINE",
+    "note": "appsec",
+    "dateAdded": "2025-02-05"
+  },
+  {
+    "title": "OWASP ZAP",
+    "slug": "owasp-zap",
+    "description": "Accessible web app scanning tool and a strong open-source reference point.",
+    "category": "security-tools",
+    "tags": [
+      "owasp",
+      "scanner",
+      "web"
+    ],
+    "url": "https://www.zaproxy.org",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "1.8M",
+    "status": "ONLINE",
+    "note": "open-source",
+    "dateAdded": "2025-02-06"
+  },
+  {
+    "title": "Snort",
+    "slug": "snort",
+    "description": "Network intrusion detection mainstay with deep history and enterprise relevance.",
+    "category": "security-tools",
+    "tags": [
+      "ids",
+      "network",
+      "detection"
+    ],
+    "url": "https://www.snort.org",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.5,
+    "views": "2.4M",
+    "status": "ONLINE",
+    "note": "network defense",
+    "dateAdded": "2025-02-07"
+  },
+  {
+    "title": "Wazuh",
+    "slug": "wazuh",
+    "description": "Open-source XDR and SIEM stack for visibility, monitoring, and security operations.",
+    "category": "security-tools",
+    "tags": [
+      "xdr",
+      "siem",
+      "monitoring"
+    ],
+    "url": "https://wazuh.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.7,
+    "views": "1.5M",
+    "status": "ONLINE",
+    "note": "ops stack",
+    "dateAdded": "2025-02-08"
+  },
+  {
+    "title": "CrowdSec",
+    "slug": "crowdsec",
+    "description": "Collaborative security engine for log analysis and blocking malicious activity.",
+    "category": "security-tools",
+    "tags": [
+      "logs",
+      "blocking",
+      "community"
+    ],
+    "url": "https://www.crowdsec.net",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.4,
+    "views": "640K",
+    "status": "ONLINE",
+    "note": "defense",
+    "dateAdded": "2025-02-09"
+  },
+  {
+    "title": "YARA",
+    "slug": "yara",
+    "description": "Pattern matching tool for malware research, detection, and content classification.",
+    "category": "security-tools",
+    "tags": [
+      "malware",
+      "rules",
+      "detection"
+    ],
+    "url": "https://virustotal.github.io/yara/",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "1.2M",
+    "status": "ONLINE",
+    "note": "research utility",
+    "dateAdded": "2025-02-10"
+  },
+  {
+    "title": "Hashcat",
+    "slug": "hashcat",
+    "description": "Password recovery and benchmark tool with high recognition in security circles.",
+    "category": "security-tools",
+    "tags": [
+      "hashes",
+      "gpu",
+      "passwords"
+    ],
+    "url": "https://hashcat.net/hashcat/",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.7,
+    "views": "1.9M",
+    "status": "ONLINE",
+    "note": "specialized",
+    "dateAdded": "2025-02-11"
+  },
+  {
+    "title": "Ghidra",
+    "slug": "ghidra",
+    "description": "Reverse engineering suite with strong research visibility and broad utility.",
+    "category": "security-tools",
+    "tags": [
+      "reverse-engineering",
+      "analysis",
+      "binary"
+    ],
+    "url": "https://ghidra-sre.org",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "2.0M",
+    "status": "ONLINE",
+    "note": "reversing",
+    "dateAdded": "2025-02-12"
+  },
+  {
+    "title": "Autopsy",
+    "slug": "autopsy",
+    "description": "Digital forensics platform for investigations, recovery, and training use cases.",
+    "category": "security-tools",
+    "tags": [
+      "forensics",
+      "disk",
+      "investigations"
+    ],
+    "url": "https://www.autopsy.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.5,
+    "views": "950K",
+    "status": "ONLINE",
+    "note": "forensics",
+    "dateAdded": "2025-02-13"
+  },
+  {
+    "title": "Shodan",
+    "slug": "shodan",
+    "description": "Internet-facing asset discovery engine with strong brand gravity and research value.",
+    "category": "security-tools",
+    "tags": [
+      "search",
+      "assets",
+      "intel"
+    ],
+    "url": "https://www.shodan.io",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "4.7M",
+    "status": "ONLINE",
+    "note": "intel",
+    "dateAdded": "2025-02-14"
+  },
+  {
+    "title": "Namecheap",
+    "slug": "namecheap",
+    "description": "Domain registrar and hosting provider with reliable affiliate potential.",
+    "category": "hosting-infra",
+    "tags": [
+      "domains",
+      "hosting",
+      "registrar"
+    ],
+    "url": "https://www.namecheap.com",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.6,
+    "views": "2.8M",
+    "status": "ONLINE",
+    "note": "affiliate-ready",
+    "dateAdded": "2025-03-01"
+  },
+  {
+    "title": "Cloudways",
+    "slug": "cloudways",
+    "description": "Managed cloud hosting with solid conversion potential for business traffic.",
+    "category": "hosting-infra",
+    "tags": [
+      "hosting",
+      "cloud",
+      "managed"
+    ],
+    "url": "https://www.cloudways.com",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.7,
+    "views": "1.1M",
+    "status": "ONLINE",
+    "note": "affiliate-ready",
+    "dateAdded": "2025-03-02"
+  },
+  {
+    "title": "DigitalOcean",
+    "slug": "digitalocean",
+    "description": "Developer-friendly cloud provider with broad tutorial and tooling reach.",
+    "category": "hosting-infra",
+    "tags": [
+      "cloud",
+      "droplets",
+      "developer"
+    ],
+    "url": "https://www.digitalocean.com",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.7,
+    "views": "6.2M",
+    "status": "ONLINE",
+    "note": "cloud",
+    "dateAdded": "2025-03-03"
+  },
+  {
+    "title": "Vultr",
+    "slug": "vultr",
+    "description": "Fast global VPS platform with simple entry pricing and wide region coverage.",
+    "category": "hosting-infra",
+    "tags": [
+      "vps",
+      "cloud",
+      "compute"
+    ],
+    "url": "https://www.vultr.com",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.6,
+    "views": "3.3M",
+    "status": "ONLINE",
+    "note": "affiliate-ready",
+    "dateAdded": "2025-03-04"
+  },
+  {
+    "title": "Hetzner",
+    "slug": "hetzner",
+    "description": "Cost-efficient servers and cloud instances with strong performance reputation.",
+    "category": "hosting-infra",
+    "tags": [
+      "servers",
+      "cloud",
+      "europe"
+    ],
+    "url": "https://www.hetzner.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "2.7M",
+    "status": "ONLINE",
+    "note": "value",
+    "dateAdded": "2025-03-05"
+  },
+  {
+    "title": "Railway",
+    "slug": "railway",
+    "description": "Fast deployment platform for apps, databases, and developer-side shipping.",
+    "category": "hosting-infra",
+    "tags": [
+      "deploy",
+      "apps",
+      "developer"
+    ],
+    "url": "https://railway.app",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "1.2M",
+    "status": "ONLINE",
+    "note": "app deploy",
+    "dateAdded": "2025-03-06"
+  },
+  {
+    "title": "Render",
+    "slug": "render",
+    "description": "Straightforward app hosting platform with static and backend deployment support.",
+    "category": "hosting-infra",
+    "tags": [
+      "hosting",
+      "apps",
+      "static"
+    ],
+    "url": "https://render.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.5,
+    "views": "1.8M",
+    "status": "ONLINE",
+    "note": "developer hosting",
+    "dateAdded": "2025-03-07"
+  },
+  {
+    "title": "Cloudflare",
+    "slug": "cloudflare",
+    "description": "CDN, DNS, security edge, and static deployment ecosystem with strong brand pull.",
+    "category": "hosting-infra",
+    "tags": [
+      "cdn",
+      "dns",
+      "edge"
+    ],
+    "url": "https://www.cloudflare.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "10M",
+    "status": "ONLINE",
+    "note": "infrastructure",
+    "dateAdded": "2025-03-08"
+  },
+  {
+    "title": "Netlify",
+    "slug": "netlify",
+    "description": "Static-first deployment platform with forms, previews, and fast iteration loops.",
+    "category": "hosting-infra",
+    "tags": [
+      "static",
+      "deploy",
+      "forms"
+    ],
+    "url": "https://www.netlify.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "3.1M",
+    "status": "ONLINE",
+    "note": "static deploy",
+    "dateAdded": "2025-03-09"
+  },
+  {
+    "title": "GitHub Pages",
+    "slug": "github-pages",
+    "description": "Free static hosting directly from a GitHub repository with simple branch publishing.",
+    "category": "hosting-infra",
+    "tags": [
+      "static",
+      "github",
+      "pages"
+    ],
+    "url": "https://pages.github.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.4,
+    "views": "4.8M",
+    "status": "ONLINE",
+    "note": "free hosting",
+    "dateAdded": "2025-03-10"
+  },
+  {
+    "title": "Supabase",
+    "slug": "supabase",
+    "description": "Database, auth, storage, and edge ecosystem for modern app backends.",
+    "category": "hosting-infra",
+    "tags": [
+      "database",
+      "backend",
+      "auth"
+    ],
+    "url": "https://supabase.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "4.5M",
+    "status": "ONLINE",
+    "note": "backend stack",
+    "dateAdded": "2025-03-11"
+  },
+  {
+    "title": "Fly.io",
+    "slug": "fly-io",
+    "description": "Distributed app platform for edge deployment and full-stack experiments.",
+    "category": "hosting-infra",
+    "tags": [
+      "edge",
+      "apps",
+      "deploy"
+    ],
+    "url": "https://fly.io",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.4,
+    "views": "720K",
+    "status": "ONLINE",
+    "note": "edge apps",
+    "dateAdded": "2025-03-12"
+  },
+  {
+    "title": "UptimeRobot",
+    "slug": "uptimerobot",
+    "description": "Monitoring service for uptime alerts and simple site health visibility.",
+    "category": "hosting-infra",
+    "tags": [
+      "monitoring",
+      "uptime",
+      "alerts"
+    ],
+    "url": "https://uptimerobot.com",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.5,
+    "views": "1.1M",
+    "status": "ONLINE",
+    "note": "affiliate-ready",
+    "dateAdded": "2025-03-13"
+  },
+  {
+    "title": "Plausible Analytics",
+    "slug": "plausible-analytics",
+    "description": "Privacy-focused analytics with clean dashboards and lightweight site instrumentation.",
+    "category": "hosting-infra",
+    "tags": [
+      "analytics",
+      "privacy",
+      "dashboard"
+    ],
+    "url": "https://plausible.io",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.6,
+    "views": "930K",
+    "status": "ONLINE",
+    "note": "affiliate-ready",
+    "dateAdded": "2025-03-14"
+  },
+  {
+    "title": "BleepingComputer",
+    "slug": "bleepingcomputer",
+    "description": "Security news and support publication with practical coverage and strong reach.",
+    "category": "research-intel",
+    "tags": [
+      "news",
+      "malware",
+      "support"
+    ],
+    "url": "https://www.bleepingcomputer.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "3.6M",
+    "status": "ONLINE",
+    "note": "news source",
+    "dateAdded": "2025-04-01"
+  },
+  {
+    "title": "Dark Reading",
+    "slug": "dark-reading",
+    "description": "Enterprise security coverage, threat reporting, and industry analysis.",
+    "category": "research-intel",
+    "tags": [
+      "news",
+      "intel",
+      "enterprise"
+    ],
+    "url": "https://www.darkreading.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.4,
+    "views": "2.1M",
+    "status": "ONLINE",
+    "note": "news source",
+    "dateAdded": "2025-04-02"
+  },
+  {
+    "title": "The Hacker News",
+    "slug": "the-hacker-news",
+    "description": "Fast-moving cyber news feed that works well for broad awareness pages.",
+    "category": "research-intel",
+    "tags": [
+      "news",
+      "cyber",
+      "updates"
+    ],
+    "url": "https://thehackernews.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.4,
+    "views": "6.4M",
+    "status": "ONLINE",
+    "note": "news source",
+    "dateAdded": "2025-04-03"
+  },
+  {
+    "title": "Krebs on Security",
+    "slug": "krebs-on-security",
+    "description": "Long-form investigative reporting with strong trust and depth.",
+    "category": "research-intel",
+    "tags": [
+      "investigations",
+      "news",
+      "analysis"
+    ],
+    "url": "https://krebsonsecurity.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.7,
+    "views": "2.0M",
+    "status": "ONLINE",
+    "note": "investigative",
+    "dateAdded": "2025-04-04"
+  },
+  {
+    "title": "CISA",
+    "slug": "cisa",
+    "description": "Official U.S. cybersecurity advisories, alerts, and guidance resources.",
+    "category": "research-intel",
+    "tags": [
+      "advisories",
+      "gov",
+      "alerts"
+    ],
+    "url": "https://www.cisa.gov",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "2.9M",
+    "status": "ONLINE",
+    "note": "official",
+    "dateAdded": "2025-04-05"
+  },
+  {
+    "title": "NVD",
+    "slug": "nvd",
+    "description": "National Vulnerability Database for CVE tracking and security reference workflows.",
+    "category": "research-intel",
+    "tags": [
+      "cve",
+      "vulnerabilities",
+      "reference"
+    ],
+    "url": "https://nvd.nist.gov",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "4.4M",
+    "status": "ONLINE",
+    "note": "official",
+    "dateAdded": "2025-04-06"
+  },
+  {
+    "title": "MITRE ATT&CK",
+    "slug": "mitre-attack",
+    "description": "Attacker behavior knowledge base for mapping, analysis, and defensive planning.",
+    "category": "research-intel",
+    "tags": [
+      "attack",
+      "tactics",
+      "mapping"
+    ],
+    "url": "https://attack.mitre.org",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.9,
+    "views": "3.8M",
+    "status": "ONLINE",
+    "note": "framework",
+    "dateAdded": "2025-04-07"
+  },
+  {
+    "title": "Exploit Database",
+    "slug": "exploit-database",
+    "description": "Vulnerability proof-of-concept archive and search reference from Offensive Security.",
+    "category": "research-intel",
+    "tags": [
+      "exploits",
+      "poc",
+      "database"
+    ],
+    "url": "https://www.exploit-db.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.7,
+    "views": "5.1M",
+    "status": "ONLINE",
+    "note": "reference",
+    "dateAdded": "2025-04-08"
+  },
+  {
+    "title": "VirusTotal",
+    "slug": "virustotal",
+    "description": "File, URL, and indicator analysis platform with broad defensive utility.",
+    "category": "research-intel",
+    "tags": [
+      "malware",
+      "analysis",
+      "intel"
+    ],
+    "url": "https://www.virustotal.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "6.0M",
+    "status": "ONLINE",
+    "note": "analysis",
+    "dateAdded": "2025-04-09"
+  },
+  {
+    "title": "Have I Been Pwned",
+    "slug": "have-i-been-pwned",
+    "description": "Breach lookup utility that works well in privacy and identity pages.",
+    "category": "research-intel",
+    "tags": [
+      "breach",
+      "identity",
+      "lookup"
+    ],
+    "url": "https://haveibeenpwned.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "7.7M",
+    "status": "ONLINE",
+    "note": "consumer utility",
+    "dateAdded": "2025-04-10"
+  },
+  {
+    "title": "SANS Internet Storm Center",
+    "slug": "sans-isc",
+    "description": "Threat diary and internet weather feed with operational security value.",
+    "category": "research-intel",
+    "tags": [
+      "threats",
+      "monitoring",
+      "alerts"
+    ],
+    "url": "https://isc.sans.edu",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.5,
+    "views": "780K",
+    "status": "ONLINE",
+    "note": "ops feed",
+    "dateAdded": "2025-04-11"
+  },
+  {
+    "title": "AlienVault OTX",
+    "slug": "alienvault-otx",
+    "description": "Open threat exchange for indicators, pulses, and collaborative intelligence.",
+    "category": "research-intel",
+    "tags": [
+      "intel",
+      "ioc",
+      "sharing"
+    ],
+    "url": "https://otx.alienvault.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.4,
+    "views": "950K",
+    "status": "ONLINE",
+    "note": "community intel",
+    "dateAdded": "2025-04-12"
+  },
+  {
+    "title": "Snyk Learn",
+    "slug": "snyk-learn",
+    "description": "Secure development learning resource that fits appsec and developer traffic.",
+    "category": "research-intel",
+    "tags": [
+      "learning",
+      "appsec",
+      "developers"
+    ],
+    "url": "https://learn.snyk.io",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.3,
+    "views": "610K",
+    "status": "ONLINE",
+    "note": "learning",
+    "dateAdded": "2025-04-13"
+  },
+  {
+    "title": "OWASP",
+    "slug": "owasp",
+    "description": "Security standards, projects, and best practices that support category authority.",
+    "category": "research-intel",
+    "tags": [
+      "owasp",
+      "standards",
+      "web"
+    ],
+    "url": "https://owasp.org",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "3.2M",
+    "status": "ONLINE",
+    "note": "reference",
+    "dateAdded": "2025-04-14"
+  },
+  {
+    "title": "Reddit Cybersecurity",
+    "slug": "reddit-cybersecurity",
+    "description": "Broad discussion surface for news, tools, and current security conversations.",
+    "category": "forums-boards",
+    "tags": [
+      "reddit",
+      "community",
+      "security"
+    ],
+    "url": "https://www.reddit.com/r/cybersecurity/",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.1,
+    "views": "4.3M",
+    "status": "ONLINE",
+    "note": "community",
+    "dateAdded": "2025-05-01"
+  },
+  {
+    "title": "Reddit Privacy",
+    "slug": "reddit-privacy",
+    "description": "Community discussion around privacy tools, strategy, and practical user choices.",
+    "category": "forums-boards",
+    "tags": [
+      "reddit",
+      "privacy",
+      "discussion"
+    ],
+    "url": "https://www.reddit.com/r/privacy/",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.2,
+    "views": "3.0M",
+    "status": "ONLINE",
+    "note": "community",
+    "dateAdded": "2025-05-02"
+  },
+  {
+    "title": "Stack Overflow",
+    "slug": "stack-overflow",
+    "description": "Developer Q&A hub with long-tail search value and broad utility.",
+    "category": "forums-boards",
+    "tags": [
+      "developers",
+      "questions",
+      "answers"
+    ],
+    "url": "https://stackoverflow.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "25M",
+    "status": "ONLINE",
+    "note": "developer hub",
+    "dateAdded": "2025-05-03"
+  },
+  {
+    "title": "Server Fault",
+    "slug": "server-fault",
+    "description": "Ops-focused Q&A site for infrastructure, networking, and server administration.",
+    "category": "forums-boards",
+    "tags": [
+      "ops",
+      "servers",
+      "questions"
+    ],
+    "url": "https://serverfault.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.4,
+    "views": "2.7M",
+    "status": "ONLINE",
+    "note": "ops forum",
+    "dateAdded": "2025-05-04"
+  },
+  {
+    "title": "Spiceworks Community",
+    "slug": "spiceworks-community",
+    "description": "IT admin and troubleshooting community with practical buying and fix threads.",
+    "category": "forums-boards",
+    "tags": [
+      "it",
+      "admins",
+      "community"
+    ],
+    "url": "https://community.spiceworks.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.2,
+    "views": "1.2M",
+    "status": "ONLINE",
+    "note": "it community",
+    "dateAdded": "2025-05-05"
+  },
+  {
+    "title": "Hacker News",
+    "slug": "hacker-news",
+    "description": "Startup and engineering discussion board with discovery value for tools and trends.",
+    "category": "forums-boards",
+    "tags": [
+      "engineering",
+      "startup",
+      "discussion"
+    ],
+    "url": "https://news.ycombinator.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.5,
+    "views": "8.4M",
+    "status": "ONLINE",
+    "note": "engineering",
+    "dateAdded": "2025-05-06"
+  },
+  {
+    "title": "GitHub Discussions",
+    "slug": "github-discussions",
+    "description": "Project-centered discussion layers across many developer tools and platforms.",
+    "category": "forums-boards",
+    "tags": [
+      "github",
+      "community",
+      "projects"
+    ],
+    "url": "https://github.com/explore",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.3,
+    "views": "11M",
+    "status": "ONLINE",
+    "note": "project ecosystems",
+    "dateAdded": "2025-05-07"
+  },
+  {
+    "title": "Hashnode",
+    "slug": "hashnode",
+    "description": "Developer publishing and discussion platform useful for discovery and commentary.",
+    "category": "forums-boards",
+    "tags": [
+      "developers",
+      "blogs",
+      "community"
+    ],
+    "url": "https://hashnode.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.2,
+    "views": "1.4M",
+    "status": "ONLINE",
+    "note": "developer media",
+    "dateAdded": "2025-05-08"
+  },
+  {
+    "title": "DEV Community",
+    "slug": "dev-community",
+    "description": "Large dev-centric discussion and content community with strong topic coverage.",
+    "category": "forums-boards",
+    "tags": [
+      "developers",
+      "community",
+      "articles"
+    ],
+    "url": "https://dev.to",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.4,
+    "views": "6.9M",
+    "status": "ONLINE",
+    "note": "dev community",
+    "dateAdded": "2025-05-09"
+  },
+  {
+    "title": "Docker Community Forums",
+    "slug": "docker-forums",
+    "description": "Infrastructure and container discussion board with practical operational value.",
+    "category": "forums-boards",
+    "tags": [
+      "docker",
+      "containers",
+      "forums"
+    ],
+    "url": "https://forums.docker.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.1,
+    "views": "820K",
+    "status": "ONLINE",
+    "note": "ops community",
+    "dateAdded": "2025-05-10"
+  },
+  {
+    "title": "Kubernetes Discuss",
+    "slug": "kubernetes-discuss",
+    "description": "Cloud-native discussion space for deployment, scaling, and production questions.",
+    "category": "forums-boards",
+    "tags": [
+      "kubernetes",
+      "cloud",
+      "ops"
+    ],
+    "url": "https://discuss.kubernetes.io",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.1,
+    "views": "510K",
+    "status": "ONLINE",
+    "note": "cloud-native",
+    "dateAdded": "2025-05-11"
+  },
+  {
+    "title": "SANS Community Resources",
+    "slug": "sans-community",
+    "description": "Security learning and community-adjacent resources useful for authority pages.",
+    "category": "forums-boards",
+    "tags": [
+      "security",
+      "learning",
+      "community"
+    ],
+    "url": "https://www.sans.org",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.3,
+    "views": "1.5M",
+    "status": "ONLINE",
+    "note": "learning hub",
+    "dateAdded": "2025-05-12"
+  },
+  {
+    "title": "Ahmia",
+    "slug": "ahmia",
+    "description": "Research-oriented onion site discovery engine with a clearnet-accessible interface.",
+    "category": "search-discovery",
+    "tags": [
+      "search",
+      "onion",
+      "research"
+    ],
+    "url": "https://ahmia.fi",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.5,
+    "views": "3.8M",
+    "status": "ONLINE",
+    "note": "research",
+    "dateAdded": "2025-06-01"
+  },
+  {
+    "title": "DuckDuckGo",
+    "slug": "duckduckgo",
+    "description": "Privacy search engine with wide mainstream adoption and easy recommendations.",
+    "category": "search-discovery",
+    "tags": [
+      "search",
+      "privacy",
+      "mainstream"
+    ],
+    "url": "https://duckduckgo.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.7,
+    "views": "10M",
+    "status": "ONLINE",
+    "note": "search staple",
+    "dateAdded": "2025-06-02"
+  },
+  {
+    "title": "Startpage",
+    "slug": "startpage",
+    "description": "Private search service with strong messaging around tracking resistance.",
+    "category": "search-discovery",
+    "tags": [
+      "search",
+      "privacy",
+      "tracking"
+    ],
+    "url": "https://www.startpage.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "2.2M",
+    "status": "ONLINE",
+    "note": "privacy search",
+    "dateAdded": "2025-06-03"
+  },
+  {
+    "title": "SearXNG Instances",
+    "slug": "searxng-instances",
+    "description": "Open-source metasearch ecosystem for users who want more control over discovery.",
+    "category": "search-discovery",
+    "tags": [
+      "metasearch",
+      "open-source",
+      "instances"
+    ],
+    "url": "https://searx.space",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.4,
+    "views": "1.1M",
+    "status": "ONLINE",
+    "note": "open-source",
+    "dateAdded": "2025-06-04"
+  },
+  {
+    "title": "Google Advanced Search",
+    "slug": "google-advanced-search",
+    "description": "Still one of the best precision tools for narrowing public web research.",
+    "category": "search-discovery",
+    "tags": [
+      "search",
+      "operators",
+      "research"
+    ],
+    "url": "https://www.google.com/advanced_search",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.5,
+    "views": "12M",
+    "status": "ONLINE",
+    "note": "precision",
+    "dateAdded": "2025-06-05"
+  },
+  {
+    "title": "GitHub Topics",
+    "slug": "github-topics",
+    "description": "Useful discovery layer for software categories, tools, and project ecosystems.",
+    "category": "search-discovery",
+    "tags": [
+      "github",
+      "projects",
+      "topics"
+    ],
+    "url": "https://github.com/topics",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.5,
+    "views": "5.4M",
+    "status": "ONLINE",
+    "note": "developer discovery",
+    "dateAdded": "2025-06-06"
+  },
+  {
+    "title": "AlternativeTo",
+    "slug": "alternativeto",
+    "description": "Tool comparison and replacement discovery engine with strong conversion utility.",
+    "category": "search-discovery",
+    "tags": [
+      "alternatives",
+      "software",
+      "compare"
+    ],
+    "url": "https://alternativeto.net",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.4,
+    "views": "4.9M",
+    "status": "ONLINE",
+    "note": "comparison",
+    "dateAdded": "2025-06-07"
+  },
+  {
+    "title": "Product Hunt",
+    "slug": "product-hunt",
+    "description": "Launch and discovery platform for new products, apps, and developer tooling.",
+    "category": "search-discovery",
+    "tags": [
+      "products",
+      "launches",
+      "apps"
+    ],
+    "url": "https://www.producthunt.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.3,
+    "views": "9.0M",
+    "status": "ONLINE",
+    "note": "new tools",
+    "dateAdded": "2025-06-08"
+  },
+  {
+    "title": "G2",
+    "slug": "g2",
+    "description": "Software marketplace reviews and category discovery for buyer-intent traffic.",
+    "category": "search-discovery",
+    "tags": [
+      "reviews",
+      "software",
+      "buyers"
+    ],
+    "url": "https://www.g2.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.2,
+    "views": "15M",
+    "status": "ONLINE",
+    "note": "buyer intent",
+    "dateAdded": "2025-06-09"
+  },
+  {
+    "title": "SourceForge",
+    "slug": "sourceforge",
+    "description": "Software directory and discovery surface with many niche and legacy tools.",
+    "category": "search-discovery",
+    "tags": [
+      "software",
+      "directory",
+      "downloads"
+    ],
+    "url": "https://sourceforge.net",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.0,
+    "views": "7.3M",
+    "status": "ONLINE",
+    "note": "directory",
+    "dateAdded": "2025-06-10"
+  },
+  {
+    "title": "Awesome Search",
+    "slug": "awesome-search",
+    "description": "Curated link-list style resource model that fits the NETRUNNA concept well.",
+    "category": "search-discovery",
+    "tags": [
+      "awesome-lists",
+      "curation",
+      "resources"
+    ],
+    "url": "https://github.com/sindresorhus/awesome",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.1,
+    "views": "6.0M",
+    "status": "ONLINE",
+    "note": "curation model",
+    "dateAdded": "2025-06-11"
+  },
+  {
+    "title": "OpenRouter",
+    "slug": "openrouter",
+    "description": "Multi-model AI API access that works well for builders comparing LLM options.",
+    "category": "ai-tools",
+    "tags": [
+      "api",
+      "llm",
+      "models"
+    ],
+    "url": "https://openrouter.ai",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.7,
+    "views": "900K",
+    "status": "ONLINE",
+    "note": "builder tool",
+    "dateAdded": "2025-07-01"
+  },
+  {
+    "title": "Cursor",
+    "slug": "cursor",
+    "description": "AI coding environment with high current interest and strong builder appeal.",
+    "category": "ai-tools",
+    "tags": [
+      "coding",
+      "ide",
+      "assistant"
+    ],
+    "url": "https://cursor.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "1.4M",
+    "status": "ONLINE",
+    "note": "ai coding",
+    "dateAdded": "2025-07-02"
+  },
+  {
+    "title": "Replit",
+    "slug": "replit",
+    "description": "Browser development environment with AI assistance and broad beginner reach.",
+    "category": "ai-tools",
+    "tags": [
+      "coding",
+      "browser",
+      "apps"
+    ],
+    "url": "https://replit.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.5,
+    "views": "4.2M",
+    "status": "ONLINE",
+    "note": "builder platform",
+    "dateAdded": "2025-07-03"
+  },
+  {
+    "title": "Lovable",
+    "slug": "lovable",
+    "description": "AI app builder aimed at fast product generation and lightweight software launches.",
+    "category": "ai-tools",
+    "tags": [
+      "app-builder",
+      "ai",
+      "prototyping"
+    ],
+    "url": "https://lovable.dev",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "600K",
+    "status": "ONLINE",
+    "note": "builder",
+    "dateAdded": "2025-07-04"
+  },
+  {
+    "title": "Claude",
+    "slug": "claude",
+    "description": "General-purpose AI assistant with strong writing, coding, and reasoning appeal.",
+    "category": "ai-tools",
+    "tags": [
+      "assistant",
+      "reasoning",
+      "writing"
+    ],
+    "url": "https://claude.ai",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "11M",
+    "status": "ONLINE",
+    "note": "assistant",
+    "dateAdded": "2025-07-05"
+  },
+  {
+    "title": "ChatGPT",
+    "slug": "chatgpt",
+    "description": "Mainstream AI assistant with very high awareness and broad workflow utility.",
+    "category": "ai-tools",
+    "tags": [
+      "assistant",
+      "productivity",
+      "chat"
+    ],
+    "url": "https://chatgpt.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "50M",
+    "status": "ONLINE",
+    "note": "mainstream",
+    "dateAdded": "2025-07-06"
+  },
+  {
+    "title": "Perplexity",
+    "slug": "perplexity",
+    "description": "Answer engine that blends search and synthesis for research-heavy workflows.",
+    "category": "ai-tools",
+    "tags": [
+      "research",
+      "answers",
+      "search"
+    ],
+    "url": "https://www.perplexity.ai",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.7,
+    "views": "7.0M",
+    "status": "ONLINE",
+    "note": "research ai",
+    "dateAdded": "2025-07-07"
+  },
+  {
+    "title": "NotebookLM",
+    "slug": "notebooklm",
+    "description": "Document-grounded AI notebook for study, summarization, and structured research.",
+    "category": "ai-tools",
+    "tags": [
+      "notes",
+      "research",
+      "documents"
+    ],
+    "url": "https://notebooklm.google",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "2.0M",
+    "status": "ONLINE",
+    "note": "research utility",
+    "dateAdded": "2025-07-08"
+  },
+  {
+    "title": "n8n",
+    "slug": "n8n",
+    "description": "Workflow automation platform that pairs well with AI-powered routing and data flows.",
+    "category": "ai-tools",
+    "tags": [
+      "automation",
+      "workflows",
+      "integrations"
+    ],
+    "url": "https://n8n.io",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.6,
+    "views": "1.9M",
+    "status": "ONLINE",
+    "note": "affiliate-ready",
+    "dateAdded": "2025-07-09"
+  },
+  {
+    "title": "Zapier",
+    "slug": "zapier",
+    "description": "Automation platform with very high awareness and excellent buyer intent.",
+    "category": "ai-tools",
+    "tags": [
+      "automation",
+      "integrations",
+      "workflows"
+    ],
+    "url": "https://zapier.com",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.5,
+    "views": "12M",
+    "status": "ONLINE",
+    "note": "affiliate-ready",
+    "dateAdded": "2025-07-10"
+  },
+  {
+    "title": "Make",
+    "slug": "make",
+    "description": "Visual automation platform with strong operations and integration use cases.",
+    "category": "ai-tools",
+    "tags": [
+      "automation",
+      "visual",
+      "integrations"
+    ],
+    "url": "https://www.make.com",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.6,
+    "views": "3.4M",
+    "status": "ONLINE",
+    "note": "affiliate-ready",
+    "dateAdded": "2025-07-11"
+  },
+  {
+    "title": "Flowise",
+    "slug": "flowise",
+    "description": "Open-source visual LLM orchestration builder for experiments and small systems.",
+    "category": "ai-tools",
+    "tags": [
+      "llm",
+      "visual",
+      "open-source"
+    ],
+    "url": "https://flowiseai.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.3,
+    "views": "410K",
+    "status": "ONLINE",
+    "note": "open-source",
+    "dateAdded": "2025-07-12"
+  },
+  {
+    "title": "GitHub",
+    "slug": "github",
+    "description": "Code hosting and collaboration platform that anchors modern shipping workflows.",
+    "category": "developer-tools",
+    "tags": [
+      "git",
+      "repositories",
+      "collaboration"
+    ],
+    "url": "https://github.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.9,
+    "views": "40M",
+    "status": "ONLINE",
+    "note": "essential",
+    "dateAdded": "2025-08-01"
+  },
+  {
+    "title": "GitLab",
+    "slug": "gitlab",
+    "description": "Full DevSecOps platform with CI, repo management, and collaboration support.",
+    "category": "developer-tools",
+    "tags": [
+      "git",
+      "ci",
+      "devsecops"
+    ],
+    "url": "https://about.gitlab.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "8.3M",
+    "status": "ONLINE",
+    "note": "platform",
+    "dateAdded": "2025-08-02"
+  },
+  {
+    "title": "VS Code",
+    "slug": "vs-code",
+    "description": "Mainstream code editor with strong extension ecosystem and low setup friction.",
+    "category": "developer-tools",
+    "tags": [
+      "editor",
+      "extensions",
+      "coding"
+    ],
+    "url": "https://code.visualstudio.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "30M",
+    "status": "ONLINE",
+    "note": "editor",
+    "dateAdded": "2025-08-03"
+  },
+  {
+    "title": "Neovim",
+    "slug": "neovim",
+    "description": "Keyboard-first editor with strong power-user appeal and customization depth.",
+    "category": "developer-tools",
+    "tags": [
+      "editor",
+      "terminal",
+      "keyboard"
+    ],
+    "url": "https://neovim.io",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.7,
+    "views": "2.4M",
+    "status": "ONLINE",
+    "note": "power user",
+    "dateAdded": "2025-08-04"
+  },
+  {
+    "title": "Docker",
+    "slug": "docker",
+    "description": "Container platform essential for packaging, shipping, and reproducible environments.",
+    "category": "developer-tools",
+    "tags": [
+      "containers",
+      "devops",
+      "shipping"
+    ],
+    "url": "https://www.docker.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.8,
+    "views": "18M",
+    "status": "ONLINE",
+    "note": "containers",
+    "dateAdded": "2025-08-05"
+  },
+  {
+    "title": "Postman",
+    "slug": "postman",
+    "description": "API testing and collaboration tool with broad recognition and team-level usage.",
+    "category": "developer-tools",
+    "tags": [
+      "api",
+      "testing",
+      "collaboration"
+    ],
+    "url": "https://www.postman.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.5,
+    "views": "11M",
+    "status": "ONLINE",
+    "note": "api tool",
+    "dateAdded": "2025-08-06"
+  },
+  {
+    "title": "Insomnia",
+    "slug": "insomnia",
+    "description": "Alternative API client with a cleaner interface and strong dev utility.",
+    "category": "developer-tools",
+    "tags": [
+      "api",
+      "rest",
+      "graphql"
+    ],
+    "url": "https://insomnia.rest",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.4,
+    "views": "1.3M",
+    "status": "ONLINE",
+    "note": "api client",
+    "dateAdded": "2025-08-07"
+  },
+  {
+    "title": "Vercel",
+    "slug": "vercel",
+    "description": "Fast frontend deployment platform with strong developer mindshare.",
+    "category": "developer-tools",
+    "tags": [
+      "frontend",
+      "deploy",
+      "preview"
+    ],
+    "url": "https://vercel.com",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "9.0M",
+    "status": "ONLINE",
+    "note": "frontend hosting",
+    "dateAdded": "2025-08-08"
+  },
+  {
+    "title": "pnpm",
+    "slug": "pnpm",
+    "description": "Fast package manager that appeals to performance-conscious JavaScript developers.",
+    "category": "developer-tools",
+    "tags": [
+      "packages",
+      "javascript",
+      "performance"
+    ],
+    "url": "https://pnpm.io",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "1.0M",
+    "status": "ONLINE",
+    "note": "tooling",
+    "dateAdded": "2025-08-09"
+  },
+  {
+    "title": "Playwright",
+    "slug": "playwright",
+    "description": "End-to-end testing framework with strong momentum and broad modern utility.",
+    "category": "developer-tools",
+    "tags": [
+      "testing",
+      "browser",
+      "automation"
+    ],
+    "url": "https://playwright.dev",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.7,
+    "views": "1.8M",
+    "status": "ONLINE",
+    "note": "testing",
+    "dateAdded": "2025-08-10"
+  },
+  {
+    "title": "Sentry",
+    "slug": "sentry",
+    "description": "Error tracking and monitoring platform with strong buyer intent and team value.",
+    "category": "developer-tools",
+    "tags": [
+      "monitoring",
+      "errors",
+      "observability"
+    ],
+    "url": "https://sentry.io",
+    "affiliate_url": "",
+    "use_affiliate": true,
+    "rating": 4.6,
+    "views": "5.3M",
+    "status": "ONLINE",
+    "note": "affiliate-ready",
+    "dateAdded": "2025-08-11"
+  },
+  {
+    "title": "Linear",
+    "slug": "linear",
+    "description": "Issue tracking and planning tool with strong product and engineering adoption.",
+    "category": "developer-tools",
+    "tags": [
+      "planning",
+      "issues",
+      "teams"
+    ],
+    "url": "https://linear.app",
+    "affiliate_url": "",
+    "use_affiliate": false,
+    "rating": 4.6,
+    "views": "2.6M",
+    "status": "ONLINE",
+    "note": "team workflow",
+    "dateAdded": "2025-08-12"
+  }
+]

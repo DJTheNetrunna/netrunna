@@ -1,0 +1,5 @@
+create extension if not exists "pgcrypto";
+
+create table if not exists resources (id uuid primary key default gen_random_uuid(), title text not null, slug text unique not null, description text not null, category text not null, tags text[] default '{}', url text not null, affiliate_url text, use_affiliate boolean default false, rating numeric(2,1) default 4.0, views text default '0', status text default 'ONLINE', note text, featured boolean default false, created_at timestamptz default now(), updated_at timestamptz default now());
+create table if not exists submissions (id uuid primary key default gen_random_uuid(), title text not null, url text not null, category text, tags text, description text, contact text, status text default 'pending', created_at timestamptz default now());
+create table if not exists clicks (id uuid primary key default gen_random_uuid(), resource_slug text, title text, category text, target_url text, referrer text, user_agent text, created_at timestamptz default now());

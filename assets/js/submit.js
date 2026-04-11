@@ -1,0 +1,3 @@
+
+const form=document.getElementById("submissionForm"),notice=document.getElementById("formNotice");
+if(form){form.addEventListener("submit",function(e){const action=form.getAttribute("action"),isLocal=location.protocol==="file:"||!action;if(isLocal){e.preventDefault();const data=Object.fromEntries(new FormData(form).entries());data.timestamp=new Date().toISOString();try{const existing=JSON.parse(localStorage.getItem("netrunna_submissions")||"[]");existing.push(data);localStorage.setItem("netrunna_submissions",JSON.stringify(existing.slice(-200)));if(notice)notice.textContent="Saved locally. Deploy to Netlify or connect Supabase to collect real submissions.";form.reset()}catch(err){if(notice)notice.textContent="Local save failed."}}})}
