@@ -1957,3 +1957,17 @@
     "dateAdded": "2025-08-12"
   }
 ]
+
+{
+  "title": "",
+  "slug": "",
+  "category": "",
+  "tags": [],
+  "url": "",
+  "affiliate_url": "",
+  "use_affiliate": true,
+  "featured": false,
+  "priority": 1,
+  "conversion_score": 0,
+  "clicks": 0
+}
