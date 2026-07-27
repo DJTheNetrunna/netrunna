@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#030407">
+  <meta name="description" content="An immersive searchable interface for DJ's Awesome Piracy archive.">
+  <title>DJ's Awesome Piracy // Blacksite Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="DJ's Awesome Piracy home">
+      <span class="brand-sigil">A/P</span>
+      <span class="brand-copy"><strong>DJ's AWESOME PIRACY</strong><small>BLACKSITE ARCHIVE // NODE 01</small><strong>Presented By: <a href="DJThePCDude.com" DJThePCDude.com></strong></span>
+    </a>
+    <div class="system-strip" aria-label="System status">
+      <span><i></i> ARCHIVE ONLINE</span>
+      <span id="clock">00:00:00</span>
+      <span class="desktop-only">READ-ONLY INDEX</span>
+    </div>
+    <nav class="top-actions">
+      <button id="themeToggle" class="utility-btn" type="button" aria-label="Toggle contrast mode">INVERT</button>
+      <a class="repo-btn" href="https://github.com/DJTheNetrunna/awesome-piracy">SOURCE ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="overline"><span>///</span> CURATED UNDERGROUND KNOWLEDGE INDEX</p>
+          <h1><span>THE WEB</span><br>THEY DON’T<br>INDEX.</h1>
+          <p class="hero-text">A searchable interface layered over the original archive. Explore tools, protocols, media ecosystems, privacy resources, and digital subcultures from one signal-rich command surface.</p>
+
+          <div class="command-search" role="search">
+            <span class="prompt">root@archive:~$</span>
+            <label class="sr-only" for="searchInput">Search archive</label>
+            <input id="searchInput" type="search" placeholder="query --all" autocomplete="off" spellcheck="false">
+            <kbd>/</kbd>
+          </div>
+          <div class="search-status">
+            <span id="searchMeta">BOOTING INDEX…</span>
+            <span>ESC TO CLEAR</span>
+          </div>
+        </div>
+
+        <aside class="radar-card" aria-label="Archive telemetry">
+          <div class="radar-head"><span>ARCHIVE TELEMETRY</span><b>LIVE</b></div>
+          <div class="radar-screen">
+            <div class="radar-ring ring-one"></div>
+            <div class="radar-ring ring-two"></div>
+            <div class="radar-ring ring-three"></div>
+            <div class="radar-sweep"></div>
+            <div class="radar-core"></div>
+            <i class="ping p1"></i><i class="ping p2"></i><i class="ping p3"></i>
+          </div>
+          <div class="telemetry-grid">
+            <div><small>SECTIONS</small><strong id="sectionCount">000</strong></div>
+            <div><small>MODE</small><strong>ARCHIVE</strong></div>
+            <div><small>ACCESS</small><strong>PUBLIC</strong></div>
+            <div><small>STATE</small><strong>STATIC</strong></div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="ticker" aria-hidden="true">
+        <div>PRIVACY // TORRENTING // USENET // STREAMING // AUTOMATION // MEDIA // GAMING // SECURITY // OPEN SOURCE // SELF HOSTING //</div>
+      </div>
+    </section>
+
+    <section class="shell interface">
+      <aside class="sidebar">
+        <div class="sidebar-title">
+          <div><small>INDEX TREE</small><strong>SECTORS</strong></div>
+          <button id="menuToggle" type="button" aria-label="Toggle navigation">MENU</button>
+        </div>
+        <div class="nav-search"><span>FILTER:</span><b id="navCount">0</b></div>
+        <nav id="toc" class="toc" aria-label="Archive sections"></nav>
+        <div class="side-footer">
+          <span>NODE STATUS</span>
+          <strong><i></i> CONNECTED</strong>
+        </div>
+      </aside>
+
+      <article class="content-terminal">
+        <div class="terminal-bar">
+          <div class="terminal-dots"><i></i><i></i><i></i></div>
+          <span>/vault/awesome-piracy/readme.md</span>
+          <b>UTF-8</b>
+        </div>
+        <div class="warning-band">
+          <span>LEGAL NOTICE</span>
+          <p>This interface preserves an archival resource list. External content is not verified or endorsed. Follow applicable laws, licenses, and service terms.</p>
+        </div>
+        <div id="content" class="markdown-body" aria-live="polite">
+          <div class="loader"><div class="loader-bars"><i></i><i></i><i></i><i></i><i></i></div><p>DECRYPTING INDEX…</p></div>
+        </div>
+        <div id="emptyState" class="empty-state" hidden>
+          <span>404_QUERY_NULL</span>
+          <strong>No signal found.</strong>
+          <p>Broaden the search string and try again.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="shell footer">
+    <div><strong>DJ's AWESOME PIRACY</strong><span>Community archive interface</span></div>
+    <div><span>Built from readme.md</span><span>Hosted on GitHub Pages</span></div>
+  </footer>
+</body>
+</html>
