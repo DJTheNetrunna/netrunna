@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NETRUNNA — Survivor Library</title>
+<meta name="description" content="Browse downloadable public-domain and historical PDF ebooks indexed from SurvivorLibrary.com." />
+<meta name="theme-color" content="#020604" />
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<style>
+  .library-hero{padding:70px 28px 34px;max-width:1500px;margin:auto}.library-hero h1{font-size:clamp(2.3rem,6vw,5.3rem);margin:10px 0}.library-hero h1 span{color:var(--green)}
+  .library-hero p{max-width:900px;color:#9eb1a2;line-height:1.75}.library-alert{border-left:2px solid #ffbf5b;padding:10px 14px;background:rgba(255,191,91,.05);color:#c7b48b!important}
+  .library-stats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-top:24px}.statbox{border:1px solid var(--border);background:#010302;padding:14px}.statbox strong{display:block;color:var(--green);font:700 1.45rem "Share Tech Mono",monospace}.statbox span{font:.72rem "Share Tech Mono",monospace;color:#718478;text-transform:uppercase}
+  .library-layout{max-width:1500px;margin:0 auto;padding:0 28px 60px;display:grid;grid-template-columns:280px 1fr;gap:18px}.library-side,.library-main{border:1px solid var(--border);background:rgba(1,3,2,.8)}.library-side{padding:14px;align-self:start;position:sticky;top:76px;max-height:calc(100vh - 92px);overflow:auto}.library-main{padding:16px}
+  .library-controls{display:grid;grid-template-columns:minmax(240px,1fr) 260px 190px;gap:10px;margin-bottom:14px}.library-controls input,.library-controls select{width:100%;background:#000;border:1px solid var(--border);color:#c9d7cc;padding:12px;font:inherit}.library-controls input:focus,.library-controls select:focus{outline:none;border-color:var(--green)}
+  .category-btn{display:flex;width:100%;justify-content:space-between;gap:10px;background:transparent;border:0;border-bottom:1px solid #0b1b11;color:#93a89a;text-align:left;padding:9px 6px;cursor:pointer}.category-btn:hover,.category-btn.active{color:var(--green);background:var(--green-soft)}
+  .book-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.book-card{border:1px solid var(--border);padding:15px;background:#000;display:flex;flex-direction:column;gap:10px;min-height:245px}.book-card h3{font-size:1rem;margin:0;color:#d7e6da;overflow-wrap:anywhere}.book-card p{font-size:.84rem;color:#84978a;line-height:1.55;margin:0}.book-meta{display:flex;flex-wrap:wrap;gap:8px;font:.7rem "Share Tech Mono",monospace;color:#66806e}.book-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}.mini-badge{display:inline-block;border:1px solid var(--green);color:var(--green);padding:2px 6px;font:.66rem "Share Tech Mono",monospace}.mini-badge.warning{border-color:#ffbf5b;color:#ffbf5b}.empty{padding:35px;color:#718478;font-family:"Share Tech Mono",monospace}.side-note{font-size:.75rem;color:#708177;line-height:1.55;margin:12px 2px}
+  @media(max-width:1100px){.book-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.library-stats{grid-template-columns:repeat(3,1fr)}}
+  @media(max-width:760px){.library-layout{grid-template-columns:1fr;padding:0 14px 40px}.library-side{position:static;max-height:320px}.library-controls{grid-template-columns:1fr}.book-grid{grid-template-columns:1fr}.library-stats{grid-template-columns:repeat(2,1fr)}.library-hero{padding:48px 14px 24px}.topnav a:nth-child(n+4){display:none}}
+</style>
+</head>
+<body>
+<div class="scanlines"></div>
+<header class="topbar">
+  <a class="brand" href="index.html">[NETRUNNA.COM]</a>
+  <nav class="topnav"><a href="index.html">Directory</a><a href="awesome.html">Awesome Piracy</a><a href="survivor.html">Survivor Library</a><a href="dashboard.html">Dashboard</a><a href="about.html">About</a></nav>
+  <div class="status">LIBRARY: LIVE</div>
+</header>
+
+<section class="library-hero">
+  <div class="eyebrow">PUBLIC-DOMAIN KNOWLEDGE // HISTORICAL TECHNICAL BOOKS // OFFLINE REFERENCE</div>
+  <h1>Survivor <span>Library</span></h1>
+  <p>NETRUNNA indexes downloadable PDF ebooks from <a href="https://www.survivorlibrary.com/index.php/main-category-index/" target="_blank" rel="noopener noreferrer">SurvivorLibrary.com</a>, organized by its original subject categories and synced automatically.</p>
+  <p class="library-alert">Historical material can contain obsolete or unsafe medical, chemical, food, electrical, and engineering guidance. Verify practical instructions against current standards. NETRUNNA also omits clearly weapon/explosive/sabotage manuals from the automatic public index.</p>
+  <div class="library-stats">
+    <div class="statbox"><strong id="bookCount">0</strong><span>PDF ebooks</span></div>
+    <div class="statbox"><strong id="categoryCount">0</strong><span>categories</span></div>
+    <div class="statbox"><strong id="visibleCount">0</strong><span>visible</span></div>
+    <div class="statbox"><strong id="savedCount">0</strong><span>saved</span></div>
+    <div class="statbox"><strong id="syncDate">—</strong><span>catalog sync</span></div>
+  </div>
+</section>
+
+<main class="library-layout">
+  <aside class="library-side">
+    <div class="panel-title">SUBJECT INDEX</div>
+    <button class="category-btn active" data-category="all"><span>All Subjects</span><span id="allCategoryCount">0</span></button>
+    <button class="category-btn" data-category="saved"><span>Saved PDFs</span><span id="savedCategoryCount">0</span></button>
+    <div id="categoryList"></div>
+    <p class="side-note">Categories and downloads are generated from Survivor Library's live index. PDF files remain hosted by the source site; NETRUNNA indexes and routes to them.</p>
+  </aside>
+
+  <section class="library-main">
+    <div class="library-controls">
+      <input id="librarySearch" type="search" placeholder="Search ebook titles or subjects..." />
+      <select id="categorySelect"><option value="all">All Subjects</option><option value="saved">Saved PDFs</option></select>
+      <select id="librarySort"><option value="title">Title A–Z</option><option value="category">Subject</option><option value="newest">Newest Added</option><option value="size">Largest File</option></select>
+    </div>
+    <div id="bookGrid" class="book-grid"></div>
+  </section>
+</main>
+
+<footer class="site-footer"><div>© <span id="year"></span> NETRUNNA.COM — Survivor Library Index</div><div class="footer-links"><a href="index.html">Directory</a><a href="awesome.html">Awesome Piracy</a><a href="https://www.survivorlibrary.com/index.php/main-category-index/" target="_blank" rel="noopener noreferrer">Original Library</a></div></footer>
+<script defer src="assets/js/survivor.js"></script>
+</body>
+</html>
