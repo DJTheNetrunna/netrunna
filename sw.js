@@ -1,8 +1,9 @@
-const CACHE="netrunna-shell-v5";
+const CACHE="netrunna-shell-v6";
 const CORE=[
   "./",
   "./index.html",
   "./awesome.html",
+  "./survivor.html",
   "./about.html",
   "./dashboard.html",
   "./submit.html",
@@ -11,9 +12,11 @@ const CORE=[
   "./assets/js/catalog.js",
   "./assets/js/app.js",
   "./assets/js/awesome.js",
+  "./assets/js/survivor.js",
   "./assets/js/dashboard.js",
   "./assets/js/redirect.js",
   "./data/resources.json",
+  "./data/survivor-library.json",
   "./awsomepiracy/readme.md",
   "./awsomepiracy/index.html",
   "./assets/img/favicon.svg",
