@@ -4,7 +4,6 @@ const sideButtons=[...document.querySelectorAll(".sidebtn")],chipButtons=[...doc
 const resultsCount=document.getElementById("resultsCount"),resultsCountTop=document.getElementById("resultsCountTop"),modeText=document.getElementById("modeText"),sortText=document.getElementById("sortText"),heroMode=document.getElementById("heroMode"),heroListings=document.getElementById("heroListings"),heroLoad=document.getElementById("heroLoad"),heroSaved=document.getElementById("heroSaved"),heroNetwork=document.getElementById("heroNetwork"),heroArchive=document.getElementById("heroArchive"),yearEl=document.getElementById("year"),toastEl=document.getElementById("toast"),installBtn=document.getElementById("installBtn"),compactBtn=document.getElementById("compactBtn");
 let installPrompt=null;
 if(yearEl)yearEl.textContent=new Date().getFullYear();
-
 function readArray(key){try{const value=JSON.parse(localStorage.getItem(key)||"[]");return Array.isArray(value)?value:[]}catch{return[]}}
 function saveFavorites(){localStorage.setItem("netrunna_favorites",JSON.stringify([...state.favorites]));renderCounts(state.resources);updateHeroStats()}
 function escapeHtml(value){return String(value??"").replace(/[&<>'"]/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[ch]))}
@@ -25,7 +24,6 @@ async function shareResource(slug){const item=state.resources.find(r=>r.slug===s
 function randomNode(){const list=getList();if(!list.length){showToast("NO NODES IN CURRENT VIEW");return}const item=list[Math.floor(Math.random()*list.length)];showToast(`RANDOM: ${item.title}`);setTimeout(()=>location.href=routeHref(item),250)}
 function setCompact(enabled){state.compact=enabled;document.body.classList.toggle("compact-cards",enabled);localStorage.setItem("netrunna_compact",enabled?"1":"0");if(compactBtn){compactBtn.textContent=enabled?"Expanded View":"Compact View";compactBtn.setAttribute("aria-pressed",String(enabled))}}
 async function loadResources(){try{if(!window.NetrunnaCatalog)throw new Error("Catalog loader unavailable");const catalog=await window.NetrunnaCatalog.loadAll();state.resources=catalog.resources;renderCounts(state.resources);render();updateHeroStats();if(heroArchive)heroArchive.textContent=catalog.importedCount;if(heroLoad)heroLoad.textContent=`JSON + ${catalog.importedCount} AP`}catch(err){console.error(err);if(heroLoad)heroLoad.textContent="LOAD ERROR";if(cardsEl)cardsEl.innerHTML='<div class="empty">DATA LOAD FAILED // RUN A LOCAL SERVER OR DEPLOY THE SITE</div>'}}
-
 state.favorites=new Set(readArray("netrunna_favorites"));
 loadUrlState();
 setCompact(localStorage.getItem("netrunna_compact")==="1");
@@ -36,12 +34,12 @@ chipButtons.forEach(btn=>btn.addEventListener("click",()=>setActive(btn.dataset.
 document.getElementById("randomBtn")?.addEventListener("click",randomNode);
 document.getElementById("savedBtn")?.addEventListener("click",()=>setActive("saved"));
 document.getElementById("recentBtn")?.addEventListener("click",()=>setActive("recent"));
-document.getElementById("awesomeBtn")?.addEventListener("click",()=>setActive("awesome-piracy"));
+document.getElementById("awesomeBtn")?.addEventListener("click",()=>location.href="awesome.html");
 compactBtn?.addEventListener("click",()=>setCompact(!state.compact));
 cardsEl?.addEventListener("click",e=>{const save=e.target.closest("[data-save]"),share=e.target.closest("[data-share]");if(save){toggleFavorite(save.dataset.save);return}if(share)shareResource(share.dataset.share)});
 window.addEventListener("online",updateHeroStats);window.addEventListener("offline",updateHeroStats);
 window.addEventListener("storage",e=>{if(e.key==="netrunna_favorites"){state.favorites=new Set(readArray("netrunna_favorites"));renderCounts(state.resources);render();updateHeroStats()}});
-document.addEventListener("keydown",e=>{const typing=/INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName||"");if(e.key==="/"&&!typing){e.preventDefault();searchInput?.focus()}else if(e.key.toLowerCase()==="r"&&!typing){e.preventDefault();randomNode()}else if(e.key.toLowerCase()==="s"&&!typing){e.preventDefault();setActive("saved")}else if(e.key.toLowerCase()==="p"&&!typing){e.preventDefault();setActive("awesome-piracy")}});
+document.addEventListener("keydown",e=>{const typing=/INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName||"");if(e.key==="/"&&!typing){e.preventDefault();searchInput?.focus()}else if(e.key.toLowerCase()==="r"&&!typing){e.preventDefault();randomNode()}else if(e.key.toLowerCase()==="s"&&!typing){e.preventDefault();setActive("saved")}else if(e.key.toLowerCase()==="p"&&!typing){e.preventDefault();location.href="awesome.html"}});
 window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();installPrompt=e;if(installBtn)installBtn.hidden=false});
 installBtn?.addEventListener("click",async()=>{if(!installPrompt)return;installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;installBtn.hidden=true});
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
