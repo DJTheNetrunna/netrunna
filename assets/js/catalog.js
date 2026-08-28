@@ -56,8 +56,23 @@
       if(depth!==0)continue;
       const title=cleanText(line.slice(i+1,closeLabel));
       const url=line.slice(closeLabel+2,j).trim();
-      if(/^https?:\/\//i.test(url))links.push({title,url,start:i,end:j+1});
+      if(/^https?:\/\//i.test(url))links.push({title,url,start:i,end:j+1,kind:"markdown"});
       i=j;
+    }
+    return links;
+  }
+
+  function extractBareLinks(line,markdownLinks){
+    const chars=[...line];
+    for(const link of markdownLinks){for(let i=link.start;i<link.end;i++)chars[i]=" ";}
+    const masked=chars.join("");
+    const links=[];
+    const re=/https?:\/\/[^\s<>"']+/gi;
+    let match;
+    while((match=re.exec(masked))){
+      let url=match[0].replace(/[\],.;:!?]+$/g,"");
+      while(url.endsWith(")")&&((url.match(/\(/g)||[]).length<(url.match(/\)/g)||[]).length))url=url.slice(0,-1);
+      if(normalizeUrl(url))links.push({title:"",url,start:match.index,end:match.index+match[0].length,kind:"bare"});
     }
     return links;
   }
@@ -78,17 +93,20 @@
       if(section==="Contents")continue;
       if(!/^\s*[-*]\s+/.test(line))continue;
 
-      const links=extractMarkdownLinks(line);
+      const markdownLinks=extractMarkdownLinks(line);
+      const links=[...markdownLinks,...extractBareLinks(line,markdownLinks)];
       if(!links.length)continue;
       const starred=line.includes(":star2:");
+      const context=[section,subsection].filter(Boolean).join(" / ");
 
       for(let index=0;index<links.length;index++){
         const link=links[index];
         const normalized=normalizeUrl(link.url);
         if(!normalized)continue;
-        const rest=cleanText(line.slice(link.end));
-        const title=link.title||new URL(normalized).hostname;
-        const context=[section,subsection].filter(Boolean).join(" / ");
+        let hostname="resource";
+        try{hostname=new URL(normalized).hostname.replace(/^www\./,"")}catch{}
+        const title=cleanText(link.title)||hostname;
+        const rest=link.kind==="markdown"?cleanText(line.slice(link.end)):"";
         const description=rest||`Resource listed in the archived Awesome Piracy collection under ${context||"the main index"}.`;
         const baseSlug=`ap-${slugify(title)}`;
         let slug=baseSlug;
