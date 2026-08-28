@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>NETRUNNA.COM — Underground Links</title>
-<meta name="description" content="A curated index of tools, networks, research, infrastructure, privacy resources, and the archived Awesome Piracy link collection." />
+<meta name="description" content="A curated index of tools, networks, research, infrastructure, privacy resources, the archived Awesome Piracy catalog, and downloadable Survivor Library ebooks." />
 <meta name="theme-color" content="#020604" />
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
 <link rel="manifest" href="manifest.webmanifest" />
@@ -28,7 +28,7 @@
 <div class="scanlines"></div>
 <header class="topbar">
   <a class="brand" href="index.html">[NETRUNNA.COM]</a>
-  <nav class="topnav"><a href="#directory">Directory</a><a href="awesome.html">Archive Browser</a><a href="about.html">About</a><a href="dashboard.html">Dashboard</a><a href="submit.html">Submit</a></nav>
+  <nav class="topnav"><a href="#directory">Directory</a><a href="awesome.html">Archive Browser</a><a href="survivor.html">Survivor Library</a><a href="about.html">About</a><a href="dashboard.html">Dashboard</a><a href="submit.html">Submit</a></nav>
   <div class="status" id="nodeStatus">NODE: LIVE</div>
 </header>
 
@@ -37,20 +37,22 @@
     <div class="hero-copy">
       <div class="eyebrow">SEATTLE ROOTED // CURATED INDEX // OFF-GRID SIGNALS</div>
       <h1>Underground <span>Links</span></h1>
-      <p>A searchable network index combining NETRUNNA's curated resources with the full archived Awesome Piracy link catalog.</p>
-      <p class="callout">Awesome Piracy is archived, so imported targets are labeled UNVERIFIED. Use the collection as historical/resource discovery data and verify a destination before trusting downloads, credentials, or software from it.</p>
+      <p>A searchable network index combining NETRUNNA's curated resources, the archived Awesome Piracy catalog, and downloadable historical/public-domain ebooks indexed from Survivor Library.</p>
+      <p class="callout">Archive links are historical/resource-discovery data. Survivor Library material may contain obsolete safety, medical, chemical, food, electrical, or engineering guidance; verify practical instructions against modern standards before use.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="#directory">Browse Index</a>
         <a class="button button-secondary" id="awesomeBtn" href="awesome.html">Awesome Piracy Archive</a>
+        <a class="button button-secondary" id="survivorBtn" href="survivor.html">Survivor Library PDFs</a>
         <button class="button button-secondary" id="randomBtn" type="button">Random Node</button>
         <button class="button button-secondary" id="savedBtn" type="button">Saved Nodes</button>
         <button class="button button-secondary" id="recentBtn" type="button">Recent Routes</button>
         <button class="button button-secondary" id="installBtn" type="button" hidden>Install App</button>
       </div>
-      <div class="search-wrap"><input id="searchInput" type="search" placeholder="Search tools, tags, descriptions, archive sections...  [ / ]" /></div>
+      <div class="search-wrap"><input id="searchInput" type="search" placeholder="Search tools, ebooks, tags, descriptions, archive sections...  [ / ]" /></div>
       <div class="quick-filters">
         <button class="chip active" data-filter="all" type="button">All</button>
         <button class="chip" data-filter="awesome-piracy" type="button">Awesome Piracy</button>
+        <button class="chip" data-filter="survivor-library" type="button">Survivor Library</button>
         <button class="chip" data-filter="saved" type="button">Saved</button>
         <button class="chip" data-filter="recent" type="button">Recent</button>
         <button class="chip" data-filter="privacy" type="button">Privacy Stack</button>
@@ -62,7 +64,7 @@
         <button class="chip" data-filter="ai-tools" type="button">AI Tools</button>
         <button class="chip" data-filter="developer-tools" type="button">Developer Tools</button>
       </div>
-      <div class="shortcut-hint">KEYBOARD // / SEARCH &nbsp; R RANDOM NODE &nbsp; S SAVED NODES &nbsp; P AWESOME PIRACY</div>
+      <div class="shortcut-hint">KEYBOARD // / SEARCH &nbsp; R RANDOM NODE &nbsp; S SAVED NODES &nbsp; P AWESOME PIRACY &nbsp; L SURVIVOR LIBRARY</div>
     </div>
     <div class="terminal">
       <div class="terminal-head">NETRUNNA // SIGNAL</div>
@@ -70,10 +72,11 @@
       <div class="terminal-line"><span>MODE</span><strong id="heroMode">ALL</strong></div>
       <div class="terminal-line"><span>VISIBLE</span><strong id="heroListings">0</strong></div>
       <div class="terminal-line"><span>AWESOME PIRACY</span><strong id="heroArchive">0</strong></div>
+      <div class="terminal-line"><span>SURVIVOR PDFS</span><strong id="heroSurvivor">0</strong></div>
       <div class="terminal-line"><span>SAVED</span><strong id="heroSaved">0</strong></div>
       <div class="terminal-line"><span>NETWORK</span><strong id="heroNetwork">ONLINE</strong></div>
       <div class="terminal-line"><span>LAST LOAD</span><strong id="heroLoad">READY</strong></div>
-      <div class="terminal-note">The Awesome Piracy Markdown is parsed directly from this repository, deduplicated against NETRUNNA's core data, and exposed through the same search, save, share, routing, and analytics controls.</div>
+      <div class="terminal-note">NETRUNNA merges curated resources, the bundled Awesome Piracy Markdown archive, and a periodically generated Survivor Library PDF catalog into the same search, save, share, routing, and analytics controls.</div>
     </div>
   </div>
 </section>
@@ -83,6 +86,7 @@
     <div class="panel-title">NETRUNNA INDEX</div>
     <button class="sidebtn active" data-filter="all" type="button">All Resources <span id="count-all"></span></button>
     <button class="sidebtn" data-filter="awesome-piracy" type="button">Awesome Piracy <span id="count-awesome-piracy"></span></button>
+    <button class="sidebtn" data-filter="survivor-library" type="button">Survivor Library <span id="count-survivor-library"></span></button>
     <button class="sidebtn" data-filter="saved" type="button">Saved Nodes <span id="count-saved"></span></button>
     <button class="sidebtn" data-filter="recent" type="button">Recent Routes <span id="count-recent"></span></button>
     <button class="sidebtn" data-filter="privacy" type="button">Privacy Stack <span id="count-privacy"></span></button>
@@ -102,7 +106,7 @@
     </div>
     <div class="side-section">
       <div class="panel-title">PAGES</div>
-      <div class="stack-list"><span><a href="awesome.html">ARCHIVE BROWSER</a></span><span><a href="awsomepiracy/index.html">SOURCE ARCHIVE</a></span><span><a href="about.html">ABOUT</a></span><span><a href="submit.html">SUBMIT</a></span><span><a href="dashboard.html">DASHBOARD</a></span><span><a href="docs/deploy.html">DEPLOY</a></span></div>
+      <div class="stack-list"><span><a href="awesome.html">ARCHIVE BROWSER</a></span><span><a href="survivor.html">SURVIVOR LIBRARY</a></span><span><a href="awsomepiracy/index.html">SOURCE ARCHIVE</a></span><span><a href="about.html">ABOUT</a></span><span><a href="submit.html">SUBMIT</a></span><span><a href="dashboard.html">DASHBOARD</a></span><span><a href="docs/deploy.html">DEPLOY</a></span></div>
     </div>
   </aside>
   <section class="content">
@@ -111,7 +115,7 @@
       <div class="content-tools">
         <button class="button button-ghost small" id="compactBtn" type="button" aria-pressed="false">Compact View</button>
         <select id="sortSelect">
-          <option value="rating">Top Rated</option><option value="views">Most Viewed</option><option value="newest">Newest</option><option value="title">Title</option><option value="activity">Recent Activity</option>
+          <option value="rating">Top Rated</option><option value="views">Most Viewed / Largest</option><option value="newest">Newest</option><option value="title">Title</option><option value="activity">Recent Activity</option>
         </select>
       </div>
     </div>
@@ -120,12 +124,12 @@
 </main>
 
 <section class="section-grid">
-  <article class="footer-card"><h2>Archive ingestion</h2><p>Every external resource listed in the bundled Awesome Piracy Markdown is converted into a searchable NETRUNNA node at runtime, with its original section and subsection kept as tags.</p></article>
+  <article class="footer-card"><h2>Archive ingestion</h2><p>External resources from the bundled Awesome Piracy Markdown are converted into searchable NETRUNNA nodes with their original archive sections preserved as tags.</p></article>
+  <article class="footer-card"><h2>Survivor Library PDFs</h2><p>A scheduled catalog job indexes downloadable historical/public-domain PDFs from SurvivorLibrary.com and exposes them through NETRUNNA without copying the ebook binaries into this repository.</p></article>
   <article class="footer-card"><h2>Local-first controls</h2><p>Saved resources, compact view preference, and visit history are kept in browser storage. No account is required.</p></article>
-  <article class="footer-card"><h2>Offline shell</h2><p>The service worker caches the main pages, core data, scripts, styling, and the Awesome Piracy source archive so the catalog remains available after a successful load.</p></article>
 </section>
 
-<footer class="site-footer"><div>© <span id="year"></span> NETRUNNA.COM — Underground Links</div><div class="footer-links"><a href="awesome.html">Archive Browser</a><a href="awsomepiracy/index.html">Source Archive</a><a href="about.html">About</a><a href="submit.html">Submit</a><a href="docs/deploy.html">Deploy</a></div></footer>
+<footer class="site-footer"><div>© <span id="year"></span> NETRUNNA.COM — Underground Links</div><div class="footer-links"><a href="awesome.html">Archive Browser</a><a href="survivor.html">Survivor Library</a><a href="about.html">About</a><a href="submit.html">Submit</a><a href="docs/deploy.html">Deploy</a></div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script defer src="assets/js/catalog.js"></script>
 <script defer src="assets/js/app.js"></script>
