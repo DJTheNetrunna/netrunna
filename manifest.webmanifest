@@ -1,7 +1,7 @@
 {
   "name": "NETRUNNA.COM Underground Links",
   "short_name": "NETRUNNA",
-  "description": "A curated network index with privacy, infrastructure, research, developer resources, and the archived Awesome Piracy catalog.",
+  "description": "A curated network index with privacy, infrastructure, research, developer resources, the archived Awesome Piracy catalog, and downloadable Survivor Library ebooks.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -11,10 +11,11 @@
     {"src":"assets/img/favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
   ],
   "shortcuts": [
+    {"name":"Survivor Library","short_name":"Survivor PDFs","url":"./survivor.html"},
     {"name":"Archive Browser","short_name":"Archive","url":"./awesome.html"},
     {"name":"Awesome Piracy Flat Index","short_name":"Archive Index","url":"./index.html?filter=awesome-piracy"},
+    {"name":"Survivor Library Flat Index","short_name":"Survivor Index","url":"./index.html?filter=survivor-library"},
     {"name":"Saved Nodes","short_name":"Saved","url":"./index.html?filter=saved"},
-    {"name":"Recent Routes","short_name":"Recent","url":"./index.html?filter=recent"},
     {"name":"Dashboard","short_name":"Dashboard","url":"./dashboard.html"}
   ]
 }
