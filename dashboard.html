@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Dashboard — NETRUNNA.COM</title>
-<meta name="description" content="Local dashboard for listings, clicks, saved nodes, and submissions." />
+<meta name="description" content="Local dashboard for NETRUNNA listings, Awesome Piracy archive entries, clicks, saved nodes, and submissions." />
 <meta name="theme-color" content="#020604" />
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
 <link rel="manifest" href="manifest.webmanifest" />
@@ -17,20 +17,21 @@
 <div class="scanlines"></div>
 <header class="topbar"><a class="brand" href="index.html">[NETRUNNA.COM]</a><nav class="topnav"><a href="index.html">Home</a><a href="about.html">About</a><a href="submit.html">Submit</a></nav><div class="status">DASHBOARD: LOCAL</div></header>
 <main class="page-wrap"><section class="page-panel">
-<div class="eyebrow">ANALYTICS // INVENTORY // LOCAL SIGNAL</div><h1 class="page-title">Local Dashboard</h1>
-<p class="page-copy">This dashboard reads the packaged JSON plus saved nodes, local click history, and submissions from this browser. It remains a static bridge to a future Supabase or analytics-backed admin system.</p>
+<div class="eyebrow">ANALYTICS // INVENTORY // ARCHIVE SIGNAL</div><h1 class="page-title">Local Dashboard</h1>
+<p class="page-copy">This dashboard merges NETRUNNA's packaged JSON with the Awesome Piracy archive parser, plus saved nodes, local click history, and submissions from this browser.</p>
 <div class="kpis">
-<div class="kpi"><div class="mono">LISTINGS</div><strong id="kpiListings">0</strong></div><div class="kpi"><div class="mono">AFFILIATE READY</div><strong id="kpiAffiliate">0</strong></div><div class="kpi"><div class="mono">CATEGORIES</div><strong id="kpiCategories">0</strong></div><div class="kpi"><div class="mono">LOCAL CLICKS</div><strong id="kpiClicks">0</strong></div><div class="kpi"><div class="mono">SAVED NODES</div><strong id="kpiSaved">0</strong></div><div class="kpi"><div class="mono">UNIQUE VISITED</div><strong id="kpiUniqueVisited">0</strong></div>
+<div class="kpi"><div class="mono">TOTAL LISTINGS</div><strong id="kpiListings">0</strong></div><div class="kpi"><div class="mono">AWESOME PIRACY</div><strong id="kpiArchive">0</strong></div><div class="kpi"><div class="mono">AFFILIATE READY</div><strong id="kpiAffiliate">0</strong></div><div class="kpi"><div class="mono">CATEGORIES</div><strong id="kpiCategories">0</strong></div><div class="kpi"><div class="mono">LOCAL CLICKS</div><strong id="kpiClicks">0</strong></div><div class="kpi"><div class="mono">SAVED NODES</div><strong id="kpiSaved">0</strong></div><div class="kpi"><div class="mono">UNIQUE VISITED</div><strong id="kpiUniqueVisited">0</strong></div>
 </div>
-<div class="dashboard-actions"><button class="button button-secondary" id="exportSaved" type="button">Export Saved JSON</button><button class="button button-secondary" id="clearHistory" type="button">Clear Local History</button></div>
-<p class="muted-note" id="dashboardMessage">Saved nodes and route history exist only in this browser unless you export or sync them elsewhere.</p>
+<div class="dashboard-actions"><a class="button button-primary" href="index.html?filter=awesome-piracy">Browse Awesome Piracy</a><button class="button button-secondary" id="exportSaved" type="button">Export Saved JSON</button><button class="button button-secondary" id="clearHistory" type="button">Clear Local History</button></div>
+<p class="muted-note" id="dashboardMessage">Archive targets are historical/unverified until independently checked. Saved nodes and route history exist only in this browser unless exported or synced elsewhere.</p>
 <div class="grid-2">
 <section class="panel"><h2>Saved nodes</h2><div class="table-wrap"><table class="data-table"><thead><tr><th>Title</th><th>Category</th><th>Rating</th><th>Route</th></tr></thead><tbody id="savedTable"></tbody></table></div></section>
 <section class="panel"><h2>Category counts</h2><div class="table-wrap"><table class="data-table"><thead><tr><th>Category</th><th>Count</th></tr></thead><tbody id="categoryTable"></tbody></table></div></section>
 <section class="panel"><h2>Recent clicks</h2><div class="table-wrap"><table class="data-table"><thead><tr><th>Title</th><th>Category</th><th>Affiliate</th><th>Timestamp</th></tr></thead><tbody id="clicksTable"></tbody></table></div></section>
 <section class="panel"><h2>Recent submissions</h2><div class="table-wrap"><table class="data-table"><thead><tr><th>Title</th><th>Category</th><th>URL</th><th>Timestamp</th></tr></thead><tbody id="submissionTable"></tbody></table></div></section>
-<section class="panel"><h2>Resource sample</h2><div class="table-wrap"><table class="data-table"><thead><tr><th>Title</th><th>Category</th><th>Affiliate</th><th>Rating</th><th>Views</th></tr></thead><tbody id="resourcesTable"></tbody></table></div></section>
-<section class="panel"><h2>Storage model</h2><p>Favorites: <span class="mono">netrunna_favorites</span><br>Route history: <span class="mono">netrunna_clicks</span><br>Submissions: <span class="mono">netrunna_submissions</span><br>View preference: <span class="mono">netrunna_compact</span></p></section>
+<section class="panel"><h2>Resource sample</h2><div class="table-wrap"><table class="data-table"><thead><tr><th>Title</th><th>Category</th><th>Source</th><th>Rating</th><th>Views</th></tr></thead><tbody id="resourcesTable"></tbody></table></div></section>
+<section class="panel"><h2>Storage model</h2><p>Favorites: <span class="mono">netrunna_favorites</span><br>Route history: <span class="mono">netrunna_clicks</span><br>Submissions: <span class="mono">netrunna_submissions</span><br>View preference: <span class="mono">netrunna_compact</span><br>Archive source: <span class="mono">awsomepiracy/readme.md</span></p></section>
 </div></section></main>
+<script defer src="assets/js/catalog.js"></script>
 <script defer src="assets/js/dashboard.js"></script>
 </body></html>
