@@ -11,7 +11,8 @@
     {"src":"assets/img/favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
   ],
   "shortcuts": [
-    {"name":"Awesome Piracy","short_name":"Archive","url":"./index.html?filter=awesome-piracy"},
+    {"name":"Archive Browser","short_name":"Archive","url":"./awesome.html"},
+    {"name":"Awesome Piracy Flat Index","short_name":"Archive Index","url":"./index.html?filter=awesome-piracy"},
     {"name":"Saved Nodes","short_name":"Saved","url":"./index.html?filter=saved"},
     {"name":"Recent Routes","short_name":"Recent","url":"./index.html?filter=recent"},
     {"name":"Dashboard","short_name":"Dashboard","url":"./dashboard.html"}
