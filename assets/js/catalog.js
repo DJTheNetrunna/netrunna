@@ -1,5 +1,6 @@
 (function(global){
   const CATEGORY="awesome-piracy";
+  const SURVIVOR_CATEGORY="survivor-library";
 
   function slugify(value){
     return String(value||"")
@@ -99,8 +100,7 @@
       const starred=line.includes(":star2:");
       const context=[section,subsection].filter(Boolean).join(" / ");
 
-      for(let index=0;index<links.length;index++){
-        const link=links[index];
+      for(const link of links){
         const normalized=normalizeUrl(link.url);
         if(!normalized)continue;
         let hostname="resource";
@@ -115,23 +115,10 @@
         const tags=["awesome-piracy",slugify(section),subsection?slugify(subsection):""].filter(Boolean);
 
         rows.push({
-          title,
-          slug,
-          description,
-          category:CATEGORY,
-          tags:[...new Set(tags)],
-          url:link.url,
-          affiliate_url:"",
-          use_affiliate:false,
-          rating:starred?4.8:4.0,
-          views:"ARCHIVE",
-          status:"UNVERIFIED",
-          note:`Awesome Piracy // ${context||"archive"}`,
-          dateAdded:"2026-08-27",
-          source:"awesome-piracy",
-          source_section:section,
-          source_subsection:subsection,
-          source_starred:starred
+          title,slug,description,category:CATEGORY,tags:[...new Set(tags)],url:link.url,
+          affiliate_url:"",use_affiliate:false,rating:starred?4.8:4.0,views:"ARCHIVE",
+          status:"UNVERIFIED",note:`Awesome Piracy // ${context||"archive"}`,dateAdded:"2026-08-27",
+          source:"awesome-piracy",source_section:section,source_subsection:subsection,source_starred:starred
         });
       }
     }
@@ -167,15 +154,34 @@
     return response.json();
   }
 
-  async function loadAll(basePath=""){
-    const [base,markdown]=await Promise.all([
-      fetchJson(`${basePath}data/resources.json`),
-      fetchText(`${basePath}awsomepiracy/readme.md`)
-    ]);
-    const imported=parseAwesomePiracy(markdown);
-    const resources=mergeResources(base,imported);
-    return {resources,baseCount:Array.isArray(base)?base.length:0,importedCount:resources.length-(Array.isArray(base)?base.length:0),sourceCount:imported.length};
+  async function fetchJsonOptional(path,fallback){
+    try{return await fetchJson(path)}catch(err){console.warn("Optional catalog unavailable",path,err);return fallback}
   }
 
-  global.NetrunnaCatalog={CATEGORY,slugify,normalizeUrl,parseAwesomePiracy,mergeResources,loadAll};
+  async function loadAll(basePath=""){
+    const [base,markdown,survivorPayload]=await Promise.all([
+      fetchJson(`${basePath}data/resources.json`),
+      fetchText(`${basePath}awsomepiracy/readme.md`),
+      fetchJsonOptional(`${basePath}data/survivor-library.json`,{resources:[],categories:[]})
+    ]);
+    const awesome=parseAwesomePiracy(markdown);
+    const survivor=Array.isArray(survivorPayload)?survivorPayload:(survivorPayload.resources||[]);
+    const afterAwesome=mergeResources(base,awesome);
+    const awesomeCount=afterAwesome.length-(Array.isArray(base)?base.length:0);
+    const resources=mergeResources(afterAwesome,survivor);
+    const survivorCount=resources.length-afterAwesome.length;
+    return {
+      resources,
+      baseCount:Array.isArray(base)?base.length:0,
+      importedCount:awesomeCount,
+      awesomeCount,
+      survivorCount,
+      sourceCount:awesome.length,
+      survivorSourceCount:survivor.length,
+      survivorCategories:Array.isArray(survivorPayload?.categories)?survivorPayload.categories:[],
+      survivorGeneratedAt:survivorPayload?.generated_at||""
+    };
+  }
+
+  global.NetrunnaCatalog={CATEGORY,SURVIVOR_CATEGORY,slugify,normalizeUrl,parseAwesomePiracy,mergeResources,loadAll};
 })(window);
