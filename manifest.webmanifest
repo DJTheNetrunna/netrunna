@@ -1,0 +1,18 @@
+{
+  "name": "NETRUNNA.COM Underground Links",
+  "short_name": "NETRUNNA",
+  "description": "A curated index of tools, networks, research, infrastructure, and off-grid resources.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#020604",
+  "icons": [
+    {"src":"assets/img/favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ],
+  "shortcuts": [
+    {"name":"Saved Nodes","short_name":"Saved","url":"./index.html?filter=saved"},
+    {"name":"Recent Routes","short_name":"Recent","url":"./index.html?filter=recent"},
+    {"name":"Dashboard","short_name":"Dashboard","url":"./dashboard.html"}
+  ]
+}
