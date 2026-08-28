@@ -1,13 +1,128 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>NETRUNNA.COM — Underground Links</title><meta name="description" content="A curated index of tools, networks, research, infrastructure, and off-grid resources." />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NETRUNNA.COM — Underground Links</title>
+<meta name="description" content="A curated index of tools, networks, research, infrastructure, and off-grid resources." />
+<meta name="theme-color" content="#020604" />
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css" /></head><body>
-<div class="scanlines"></div><header class="topbar"><a class="brand" href="index.html">[NETRUNNA.COM]</a><nav class="topnav"><a href="#directory">Directory</a><a href="about.html">About</a><a href="dashboard.html">Dashboard</a><a href="submit.html">Submit</a></nav><div class="status">NODE: LIVE</div></header>
-<section class="hero"><div class="hero-grid"><div class="hero-copy"><div class="eyebrow">SEATTLE ROOTED // CURATED INDEX // OFF-GRID SIGNALS</div><h1>Underground <span>Links</span></h1><p>A curated index of tools, networks, research, infrastructure, and off-grid resources.</p><p class="callout">Next move: turn the shell into a real system with live listings, sharper categories, affiliate routing, analytics, a submission form, JSON-powered data, and a deploy-ready structure for Cloudflare Pages or GitHub Pages.</p><div class="hero-actions"><a class="button button-primary" href="#directory">Browse Index</a><a class="button button-secondary" href="submit.html">Submit a Link</a><a class="button button-secondary" href="dashboard.html">Open Dashboard</a></div><div class="search-wrap"><input id="searchInput" type="search" placeholder="Search tools, tags, descriptions, or categories..." /></div><div class="quick-filters"><button class="chip active" data-filter="all" type="button">All</button><button class="chip" data-filter="privacy" type="button">Privacy Stack</button><button class="chip" data-filter="security-tools" type="button">Security Tools</button><button class="chip" data-filter="hosting-infra" type="button">Hosting & Infrastructure</button><button class="chip" data-filter="research-intel" type="button">Research & Intel</button><button class="chip" data-filter="forums-boards" type="button">Forums & Boards</button><button class="chip" data-filter="search-discovery" type="button">Search & Discovery</button><button class="chip" data-filter="ai-tools" type="button">AI Tools</button><button class="chip" data-filter="developer-tools" type="button">Developer Tools</button></div></div><div class="terminal"><div class="terminal-head">NETRUNNA // SIGNAL</div><div class="terminal-line"><span>STATUS</span><strong>ONLINE</strong></div><div class="terminal-line"><span>MODE</span><strong id="heroMode">ALL</strong></div><div class="terminal-line"><span>LISTINGS</span><strong id="heroListings">0</strong></div><div class="terminal-line"><span>LAST LOAD</span><strong id="heroLoad">READY</strong></div><div class="terminal-note">This package ships with 103 curated listings, a static submit flow, category pages, redirect tracking, a local dashboard, and deployment docs.</div></div></div></section>
-<main class="layout" id="directory"><aside class="sidebar"><div class="panel-title">NETRUNNA INDEX</div><button class="sidebtn" data-filter="all" type="button">All Resources <span id="count-all"></span></button><button class="sidebtn" data-filter="privacy" type="button">Privacy Stack <span id="count-privacy"></span></button><button class="sidebtn" data-filter="security-tools" type="button">Security Tools <span id="count-security-tools"></span></button><button class="sidebtn" data-filter="hosting-infra" type="button">Hosting & Infrastructure <span id="count-hosting-infra"></span></button><button class="sidebtn" data-filter="research-intel" type="button">Research & Intel <span id="count-research-intel"></span></button><button class="sidebtn" data-filter="forums-boards" type="button">Forums & Boards <span id="count-forums-boards"></span></button><button class="sidebtn" data-filter="search-discovery" type="button">Search & Discovery <span id="count-search-discovery"></span></button><button class="sidebtn" data-filter="ai-tools" type="button">AI Tools <span id="count-ai-tools"></span></button><button class="sidebtn" data-filter="developer-tools" type="button">Developer Tools <span id="count-developer-tools"></span></button><div class="side-section"><div class="panel-title">SYSTEM</div><div class="sysline">RESULTS: <span id="resultsCount">0</span></div><div class="sysline">MODE: <span id="modeText">ALL</span></div><div class="sysline">SORT: <span id="sortText">TOP RATED</span></div><div class="sysline">DOMAIN: NETRUNNA.COM</div></div><div class="side-section"><div class="panel-title">PAGES</div><div class="stack-list"><span><a href="about.html">ABOUT</a></span><span><a href="submit.html">SUBMIT</a></span><span><a href="dashboard.html">DASHBOARD</a></span><span><a href="docs/deploy.html">DEPLOY</a></span></div></div></aside><section class="content"><div class="content-head"><div class="content-meta"><span id="resultsCountTop">0</span> results indexed</div><select id="sortSelect"><option value="rating">Top Rated</option><option value="views">Most Viewed</option><option value="newest">Newest</option><option value="title">Title</option></select></div><div id="cards" class="cards"></div></section></main>
-<section class="section-grid"><article class="footer-card"><h2>What this is</h2><p>A fast, static frontend with a controllable JSON data layer, outbound routing, a local dashboard, and category pages already generated for search growth.</p></article><article class="footer-card"><h2>Upgrade path</h2><p>Replace placeholders with your affiliate links, wire Supabase for real submissions and click logging, then deploy to Cloudflare Pages or GitHub Pages.</p></article><article class="footer-card"><h2>Included</h2><ul class="feature-list"><li>103 curated listings</li><li>8 category pages</li><li>Search, filters, sorting, counters</li><li>Submit page + redirect tracking</li><li>Local dashboard + deployment docs</li><li>Supabase schema + static hosting configs</li></ul></article></section>
+<link rel="stylesheet" href="assets/css/style.css" />
+<style>
+  .button-ghost{background:#010302;color:#9eb1a2}.button-ghost.active,.button-ghost:hover{color:var(--green);border-color:var(--green);background:var(--green-soft)}
+  .card-actions{display:flex;gap:8px;flex-wrap:wrap}.card-actions .button{flex:0 0 auto}
+  .content-tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .status.offline{color:#ffbf5b}.terminal-line .offline{color:#ffbf5b}
+  .toast{position:fixed;right:18px;bottom:18px;z-index:120;max-width:min(420px,calc(100vw - 36px));padding:12px 14px;border:1px solid var(--green);background:#010302;color:var(--green);font-family:"Share Tech Mono",monospace;letter-spacing:.05em;transform:translateY(24px);opacity:0;pointer-events:none;transition:.18s ease;box-shadow:0 0 24px rgba(57,255,125,.16)}
+  .toast.show{transform:translateY(0);opacity:1}
+  .shortcut-hint{margin-top:14px;color:#6f8d78;font-family:"Share Tech Mono",monospace;font-size:.74rem;line-height:1.7}
+  .compact-cards .cards{grid-template-columns:repeat(2,minmax(0,1fr))}.compact-cards .card{min-height:0;padding:14px;gap:9px}.compact-cards .card p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.compact-cards .tags{display:none}
+  @media(max-width:960px){.compact-cards .cards{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="scanlines"></div>
+<header class="topbar">
+  <a class="brand" href="index.html">[NETRUNNA.COM]</a>
+  <nav class="topnav"><a href="#directory">Directory</a><a href="about.html">About</a><a href="dashboard.html">Dashboard</a><a href="submit.html">Submit</a></nav>
+  <div class="status" id="nodeStatus">NODE: LIVE</div>
+</header>
+
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">SEATTLE ROOTED // CURATED INDEX // OFF-GRID SIGNALS</div>
+      <h1>Underground <span>Links</span></h1>
+      <p>A curated index of tools, networks, research, infrastructure, and off-grid resources.</p>
+      <p class="callout">The directory now behaves more like a personal network console: save nodes locally, revisit recent routes, share filtered searches, jump to random resources, and keep the core shell available offline.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#directory">Browse Index</a>
+        <button class="button button-secondary" id="randomBtn" type="button">Random Node</button>
+        <button class="button button-secondary" id="savedBtn" type="button">Saved Nodes</button>
+        <button class="button button-secondary" id="recentBtn" type="button">Recent Routes</button>
+        <button class="button button-secondary" id="installBtn" type="button" hidden>Install App</button>
+      </div>
+      <div class="search-wrap"><input id="searchInput" type="search" placeholder="Search tools, tags, descriptions, or categories...  [ / ]" /></div>
+      <div class="quick-filters">
+        <button class="chip active" data-filter="all" type="button">All</button>
+        <button class="chip" data-filter="saved" type="button">Saved</button>
+        <button class="chip" data-filter="recent" type="button">Recent</button>
+        <button class="chip" data-filter="privacy" type="button">Privacy Stack</button>
+        <button class="chip" data-filter="security-tools" type="button">Security Tools</button>
+        <button class="chip" data-filter="hosting-infra" type="button">Hosting & Infrastructure</button>
+        <button class="chip" data-filter="research-intel" type="button">Research & Intel</button>
+        <button class="chip" data-filter="forums-boards" type="button">Forums & Boards</button>
+        <button class="chip" data-filter="search-discovery" type="button">Search & Discovery</button>
+        <button class="chip" data-filter="ai-tools" type="button">AI Tools</button>
+        <button class="chip" data-filter="developer-tools" type="button">Developer Tools</button>
+      </div>
+      <div class="shortcut-hint">KEYBOARD // / SEARCH &nbsp; R RANDOM NODE &nbsp; S SAVED NODES</div>
+    </div>
+    <div class="terminal">
+      <div class="terminal-head">NETRUNNA // SIGNAL</div>
+      <div class="terminal-line"><span>STATUS</span><strong>ONLINE</strong></div>
+      <div class="terminal-line"><span>MODE</span><strong id="heroMode">ALL</strong></div>
+      <div class="terminal-line"><span>LISTINGS</span><strong id="heroListings">0</strong></div>
+      <div class="terminal-line"><span>SAVED</span><strong id="heroSaved">0</strong></div>
+      <div class="terminal-line"><span>NETWORK</span><strong id="heroNetwork">ONLINE</strong></div>
+      <div class="terminal-line"><span>LAST LOAD</span><strong id="heroLoad">READY</strong></div>
+      <div class="terminal-note">Static-first, local-first controls: favorites and route history stay in this browser. The service worker caches the core shell after the first successful visit.</div>
+    </div>
+  </div>
+</section>
+
+<main class="layout" id="directory">
+  <aside class="sidebar">
+    <div class="panel-title">NETRUNNA INDEX</div>
+    <button class="sidebtn active" data-filter="all" type="button">All Resources <span id="count-all"></span></button>
+    <button class="sidebtn" data-filter="saved" type="button">Saved Nodes <span id="count-saved"></span></button>
+    <button class="sidebtn" data-filter="recent" type="button">Recent Routes <span id="count-recent"></span></button>
+    <button class="sidebtn" data-filter="privacy" type="button">Privacy Stack <span id="count-privacy"></span></button>
+    <button class="sidebtn" data-filter="security-tools" type="button">Security Tools <span id="count-security-tools"></span></button>
+    <button class="sidebtn" data-filter="hosting-infra" type="button">Hosting & Infrastructure <span id="count-hosting-infra"></span></button>
+    <button class="sidebtn" data-filter="research-intel" type="button">Research & Intel <span id="count-research-intel"></span></button>
+    <button class="sidebtn" data-filter="forums-boards" type="button">Forums & Boards <span id="count-forums-boards"></span></button>
+    <button class="sidebtn" data-filter="search-discovery" type="button">Search & Discovery <span id="count-search-discovery"></span></button>
+    <button class="sidebtn" data-filter="ai-tools" type="button">AI Tools <span id="count-ai-tools"></span></button>
+    <button class="sidebtn" data-filter="developer-tools" type="button">Developer Tools <span id="count-developer-tools"></span></button>
+    <div class="side-section">
+      <div class="panel-title">SYSTEM</div>
+      <div class="sysline">RESULTS: <span id="resultsCount">0</span></div>
+      <div class="sysline">MODE: <span id="modeText">ALL</span></div>
+      <div class="sysline">SORT: <span id="sortText">TOP RATED</span></div>
+      <div class="sysline">DOMAIN: NETRUNNA.COM</div>
+    </div>
+    <div class="side-section">
+      <div class="panel-title">PAGES</div>
+      <div class="stack-list"><span><a href="about.html">ABOUT</a></span><span><a href="submit.html">SUBMIT</a></span><span><a href="dashboard.html">DASHBOARD</a></span><span><a href="docs/deploy.html">DEPLOY</a></span></div>
+    </div>
+  </aside>
+  <section class="content">
+    <div class="content-head">
+      <div class="content-meta"><span id="resultsCountTop">0</span> results indexed</div>
+      <div class="content-tools">
+        <button class="button button-ghost small" id="compactBtn" type="button" aria-pressed="false">Compact View</button>
+        <select id="sortSelect">
+          <option value="rating">Top Rated</option><option value="views">Most Viewed</option><option value="newest">Newest</option><option value="title">Title</option><option value="activity">Recent Activity</option>
+        </select>
+      </div>
+    </div>
+    <div id="cards" class="cards"></div>
+  </section>
+</main>
+
+<section class="section-grid">
+  <article class="footer-card"><h2>Local-first controls</h2><p>Saved resources, compact view preference, and visit history are kept in browser storage. No account is required.</p></article>
+  <article class="footer-card"><h2>Offline shell</h2><p>The installable web app caches the main pages, data file, scripts, and styling so the directory shell can still open when the network drops.</p></article>
+  <article class="footer-card"><h2>New controls</h2><ul class="feature-list"><li>Saved nodes + recent route filters</li><li>Random discovery and share actions</li><li>Shareable filter/search URLs</li><li>Keyboard shortcuts + compact mode</li><li>PWA install + offline status</li><li>Expanded local analytics dashboard</li></ul></article>
+</section>
+
 <footer class="site-footer"><div>© <span id="year"></span> NETRUNNA.COM — Underground Links</div><div class="footer-links"><a href="about.html">About</a><a href="submit.html">Submit</a><a href="docs/deploy.html">Deploy</a></div></footer>
-<script defer src="assets/js/app.js"></script></body></html>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script defer src="assets/js/app.js"></script>
+</body>
+</html>
