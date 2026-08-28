@@ -1,7 +1,8 @@
-const CACHE="netrunna-shell-v3";
+const CACHE="netrunna-shell-v4";
 const CORE=[
   "./",
   "./index.html",
+  "./awesome.html",
   "./about.html",
   "./dashboard.html",
   "./submit.html",
@@ -9,6 +10,7 @@ const CORE=[
   "./assets/css/style.css",
   "./assets/js/catalog.js",
   "./assets/js/app.js",
+  "./assets/js/awesome.js",
   "./assets/js/dashboard.js",
   "./assets/js/redirect.js",
   "./data/resources.json",
