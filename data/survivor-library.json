@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-08-27T00:00:00Z",
+  "source": "https://www.survivorlibrary.com/index.php/main-category-index/",
+  "source_name": "Survivor Library",
+  "notice": "Historical/public-domain reference material. Verify historical medical, chemical, food, and engineering guidance against modern safety standards before practical use.",
+  "excluded_policy": "NETRUNNA omits clearly weapon, explosive, demolition, sabotage, and similar high-risk manuals from the automatic mirror index.",
+  "categories": [
+    {"title":"Accounting","url":"https://www.survivorlibrary.com/index.php/library-accounting/"},
+    {"title":"Survival Individual","url":"https://www.survivorlibrary.com/index.php/library-survival_individual/"},
+    {"title":"Wood Carpentry","url":"https://www.survivorlibrary.com/index.php/library-wood_carpentry/"}
+  ],
+  "resources": [
+    {
+      "title": "FM 21-76 US Army Survival Manual",
+      "slug": "sl-fm-21-76-us-army-survival-manual",
+      "description": "Downloadable historical survival reference covering planning, shelters, water, firecraft, food, navigation, signaling, weather, first aid, and other field-survival topics.",
+      "category": "survivor-library",
+      "tags": ["survivor-library","survival-individual","ebook","pdf","public-domain","field-reference"],
+      "url": "https://www.survivorlibrary.com/library/fm_21-76-us-army-survival-manual.pdf",
+      "affiliate_url": "",
+      "use_affiliate": false,
+      "rating": 4.6,
+      "views": "2 MB",
+      "status": "PDF",
+      "note": "Survivor Library // Survival Individual // downloadable PDF",
+      "dateAdded": "2026-07-01",
+      "source": "survivor-library",
+      "source_section": "Survival Individual",
+      "source_subsection": "PDF eBook",
+      "source_page": "https://www.survivorlibrary.com/index.php/library-survival_individual/",
+      "downloadable": true,
+      "file_type": "pdf",
+      "size": "2 mb"
+    },
+    {
+      "title": "20th Century Bookkeeping and Accounting (1922)",
+      "slug": "sl-20th-century-bookkeeping-and-accounting-1922",
+      "description": "Downloadable historical bookkeeping and accounting text from the Survivor Library public-domain collection.",
+      "category": "survivor-library",
+      "tags": ["survivor-library","accounting","ebook","pdf","public-domain"],
+      "url": "https://www.survivorlibrary.com/library/20th_century_bookkeeping_and_accounting_1922.pdf",
+      "affiliate_url": "",
+      "use_affiliate": false,
+      "rating": 4.2,
+      "views": "23 MB",
+      "status": "PDF",
+      "note": "Survivor Library // Accounting // downloadable PDF",
+      "dateAdded": "2026-07-01",
+      "source": "survivor-library",
+      "source_section": "Accounting",
+      "source_subsection": "PDF eBook",
+      "source_page": "https://www.survivorlibrary.com/index.php/library-accounting/",
+      "downloadable": true,
+      "file_type": "pdf",
+      "size": "23 mb"
+    }
+  ]
+}
