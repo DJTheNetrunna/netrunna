@@ -2,3 +2,18 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+/*.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/assets/js/*
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/data/*
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/awsomepiracy/*
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
