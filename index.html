@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>NETRUNNA.COM — Underground Links</title>
-<meta name="description" content="A curated index of tools, networks, research, infrastructure, and off-grid resources." />
+<meta name="description" content="A curated index of tools, networks, research, infrastructure, privacy resources, and the archived Awesome Piracy link collection." />
 <meta name="theme-color" content="#020604" />
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
 <link rel="manifest" href="manifest.webmanifest" />
@@ -37,18 +37,20 @@
     <div class="hero-copy">
       <div class="eyebrow">SEATTLE ROOTED // CURATED INDEX // OFF-GRID SIGNALS</div>
       <h1>Underground <span>Links</span></h1>
-      <p>A curated index of tools, networks, research, infrastructure, and off-grid resources.</p>
-      <p class="callout">The directory now behaves more like a personal network console: save nodes locally, revisit recent routes, share filtered searches, jump to random resources, and keep the core shell available offline.</p>
+      <p>A searchable network index combining NETRUNNA's curated resources with the full archived Awesome Piracy link catalog.</p>
+      <p class="callout">Awesome Piracy is archived, so imported targets are labeled UNVERIFIED. Use the collection as historical/resource discovery data and verify a destination before trusting downloads, credentials, or software from it.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="#directory">Browse Index</a>
+        <button class="button button-secondary" id="awesomeBtn" type="button">Awesome Piracy</button>
         <button class="button button-secondary" id="randomBtn" type="button">Random Node</button>
         <button class="button button-secondary" id="savedBtn" type="button">Saved Nodes</button>
         <button class="button button-secondary" id="recentBtn" type="button">Recent Routes</button>
         <button class="button button-secondary" id="installBtn" type="button" hidden>Install App</button>
       </div>
-      <div class="search-wrap"><input id="searchInput" type="search" placeholder="Search tools, tags, descriptions, or categories...  [ / ]" /></div>
+      <div class="search-wrap"><input id="searchInput" type="search" placeholder="Search tools, tags, descriptions, archive sections...  [ / ]" /></div>
       <div class="quick-filters">
         <button class="chip active" data-filter="all" type="button">All</button>
+        <button class="chip" data-filter="awesome-piracy" type="button">Awesome Piracy</button>
         <button class="chip" data-filter="saved" type="button">Saved</button>
         <button class="chip" data-filter="recent" type="button">Recent</button>
         <button class="chip" data-filter="privacy" type="button">Privacy Stack</button>
@@ -60,17 +62,18 @@
         <button class="chip" data-filter="ai-tools" type="button">AI Tools</button>
         <button class="chip" data-filter="developer-tools" type="button">Developer Tools</button>
       </div>
-      <div class="shortcut-hint">KEYBOARD // / SEARCH &nbsp; R RANDOM NODE &nbsp; S SAVED NODES</div>
+      <div class="shortcut-hint">KEYBOARD // / SEARCH &nbsp; R RANDOM NODE &nbsp; S SAVED NODES &nbsp; P AWESOME PIRACY</div>
     </div>
     <div class="terminal">
       <div class="terminal-head">NETRUNNA // SIGNAL</div>
       <div class="terminal-line"><span>STATUS</span><strong>ONLINE</strong></div>
       <div class="terminal-line"><span>MODE</span><strong id="heroMode">ALL</strong></div>
-      <div class="terminal-line"><span>LISTINGS</span><strong id="heroListings">0</strong></div>
+      <div class="terminal-line"><span>VISIBLE</span><strong id="heroListings">0</strong></div>
+      <div class="terminal-line"><span>AWESOME PIRACY</span><strong id="heroArchive">0</strong></div>
       <div class="terminal-line"><span>SAVED</span><strong id="heroSaved">0</strong></div>
       <div class="terminal-line"><span>NETWORK</span><strong id="heroNetwork">ONLINE</strong></div>
       <div class="terminal-line"><span>LAST LOAD</span><strong id="heroLoad">READY</strong></div>
-      <div class="terminal-note">Static-first, local-first controls: favorites and route history stay in this browser. The service worker caches the core shell after the first successful visit.</div>
+      <div class="terminal-note">The Awesome Piracy Markdown is parsed directly from this repository, deduplicated against NETRUNNA's core data, and exposed through the same search, save, share, routing, and analytics controls.</div>
     </div>
   </div>
 </section>
@@ -79,6 +82,7 @@
   <aside class="sidebar">
     <div class="panel-title">NETRUNNA INDEX</div>
     <button class="sidebtn active" data-filter="all" type="button">All Resources <span id="count-all"></span></button>
+    <button class="sidebtn" data-filter="awesome-piracy" type="button">Awesome Piracy <span id="count-awesome-piracy"></span></button>
     <button class="sidebtn" data-filter="saved" type="button">Saved Nodes <span id="count-saved"></span></button>
     <button class="sidebtn" data-filter="recent" type="button">Recent Routes <span id="count-recent"></span></button>
     <button class="sidebtn" data-filter="privacy" type="button">Privacy Stack <span id="count-privacy"></span></button>
@@ -98,7 +102,7 @@
     </div>
     <div class="side-section">
       <div class="panel-title">PAGES</div>
-      <div class="stack-list"><span><a href="about.html">ABOUT</a></span><span><a href="submit.html">SUBMIT</a></span><span><a href="dashboard.html">DASHBOARD</a></span><span><a href="docs/deploy.html">DEPLOY</a></span></div>
+      <div class="stack-list"><span><a href="about.html">ABOUT</a></span><span><a href="awsomepiracy/index.html">SOURCE ARCHIVE</a></span><span><a href="submit.html">SUBMIT</a></span><span><a href="dashboard.html">DASHBOARD</a></span><span><a href="docs/deploy.html">DEPLOY</a></span></div>
     </div>
   </aside>
   <section class="content">
@@ -116,13 +120,14 @@
 </main>
 
 <section class="section-grid">
+  <article class="footer-card"><h2>Archive ingestion</h2><p>Every external resource listed in the bundled Awesome Piracy Markdown is converted into a searchable NETRUNNA node at runtime, with its original section and subsection kept as tags.</p></article>
   <article class="footer-card"><h2>Local-first controls</h2><p>Saved resources, compact view preference, and visit history are kept in browser storage. No account is required.</p></article>
-  <article class="footer-card"><h2>Offline shell</h2><p>The installable web app caches the main pages, data file, scripts, and styling so the directory shell can still open when the network drops.</p></article>
-  <article class="footer-card"><h2>New controls</h2><ul class="feature-list"><li>Saved nodes + recent route filters</li><li>Random discovery and share actions</li><li>Shareable filter/search URLs</li><li>Keyboard shortcuts + compact mode</li><li>PWA install + offline status</li><li>Expanded local analytics dashboard</li></ul></article>
+  <article class="footer-card"><h2>Offline shell</h2><p>The service worker caches the main pages, core data, scripts, styling, and the Awesome Piracy source archive so the catalog remains available after a successful load.</p></article>
 </section>
 
-<footer class="site-footer"><div>© <span id="year"></span> NETRUNNA.COM — Underground Links</div><div class="footer-links"><a href="about.html">About</a><a href="submit.html">Submit</a><a href="docs/deploy.html">Deploy</a></div></footer>
+<footer class="site-footer"><div>© <span id="year"></span> NETRUNNA.COM — Underground Links</div><div class="footer-links"><a href="about.html">About</a><a href="awsomepiracy/index.html">Archive</a><a href="submit.html">Submit</a><a href="docs/deploy.html">Deploy</a></div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script defer src="assets/js/catalog.js"></script>
 <script defer src="assets/js/app.js"></script>
 </body>
 </html>
