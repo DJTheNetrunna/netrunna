@@ -49,3 +49,5 @@ jobs:
           git add data/survivor-library.json
           git commit -m "Sync Survivor Library ebook catalog"
           git push
+
+# Initial population trigger: keep the generated catalog current through the scheduled job above.
