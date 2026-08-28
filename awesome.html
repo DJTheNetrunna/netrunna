@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Awesome Piracy Archive Browser — NETRUNNA.COM</title>
+<meta name="description" content="Browse the archived Awesome Piracy collection by section and subsection inside NETRUNNA." />
+<meta name="theme-color" content="#020604" />
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<style>
+.archive-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:20px}.archive-stat{border:1px solid var(--line-dim);padding:16px;background:#010302}.archive-stat strong{display:block;color:var(--green);font-family:"Share Tech Mono",monospace;font-size:1.45rem;margin-top:6px}.archive-toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.archive-toolbar select{min-width:190px}.section-list{max-height:70vh;overflow:auto;padding-right:4px}.section-list .sidebtn{font-size:.76rem}.archive-card-note{font-size:.72rem;color:#789184;line-height:1.5}.archive-card-actions{display:flex;gap:8px;flex-wrap:wrap}.archive-card-actions .button{padding:8px 10px}.archive-warning{border-left:3px solid #ffbf5b;padding-left:14px;color:#c7b38c}.button-ghost{background:#010302;color:#9eb1a2}.button-ghost.active,.button-ghost:hover{color:var(--green);border-color:var(--green);background:var(--green-soft)}
+@media(max-width:1180px){.archive-stats{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:700px){.archive-stats{grid-template-columns:1fr}.archive-toolbar{align-items:stretch}.archive-toolbar select{width:100%}}
+</style>
+</head>
+<body>
+<div class="scanlines"></div>
+<header class="topbar"><a class="brand" href="index.html">[NETRUNNA.COM]</a><nav class="topnav"><a href="index.html">Directory</a><a href="awsomepiracy/index.html">Source Archive</a><a href="dashboard.html">Dashboard</a></nav><div class="status">ARCHIVE: BROWSER</div></header>
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">AWESOME PIRACY // ARCHIVED COLLECTION // SECTION BROWSER</div>
+      <h1>Archive <span>Browser</span></h1>
+      <p>Explore the imported Awesome Piracy catalog by its original sections and subsections instead of searching one giant flat list.</p>
+      <p class="archive-warning">This source is archived. Imported destinations are historical/resource-discovery entries marked UNVERIFIED; verify current safety, legality, and authenticity before trusting any destination or download.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#archiveDirectory">Browse Sections</a><a class="button button-secondary" href="index.html?filter=awesome-piracy">Open Flat Index</a><a class="button button-secondary" href="awsomepiracy/index.html">Original Archive</a></div>
+      <div class="search-wrap"><input id="archiveSearch" type="search" placeholder="Search archive titles, descriptions, sections, subsections..." /></div>
+    </div>
+    <div class="terminal">
+      <div class="terminal-head">ARCHIVE // SIGNAL</div>
+      <div class="terminal-line"><span>RESOURCES</span><strong id="archiveTotal">0</strong></div>
+      <div class="terminal-line"><span>SECTIONS</span><strong id="archiveSections">0</strong></div>
+      <div class="terminal-line"><span>SUBSECTIONS</span><strong id="archiveSubsections">0</strong></div>
+      <div class="terminal-line"><span>TOP PICKS</span><strong id="archiveStarred">0</strong></div>
+      <div class="terminal-line"><span>VISIBLE</span><strong id="archiveVisible">0</strong></div>
+      <div class="terminal-note">Section and subsection counts are generated from the repository's bundled Awesome Piracy Markdown at load time.</div>
+    </div>
+  </div>
+</section>
+<section class="page-wrap"><div class="archive-stats"><div class="archive-stat"><span class="mono">SOURCE</span><strong>ARCHIVED</strong></div><div class="archive-stat"><span class="mono">ROUTING</span><strong>NETRUNNA</strong></div><div class="archive-stat"><span class="mono">SAVED NODES</span><strong id="archiveSaved">0</strong></div><div class="archive-stat"><span class="mono">STATUS</span><strong>UNVERIFIED</strong></div></div></section>
+<main class="layout" id="archiveDirectory">
+  <aside class="sidebar">
+    <div class="panel-title">ARCHIVE SECTIONS</div>
+    <div id="sectionList" class="section-list"></div>
+    <div class="side-section"><div class="panel-title">NAVIGATION</div><div class="stack-list"><span><a href="index.html">MAIN INDEX</a></span><span><a href="index.html?filter=saved">SAVED</a></span><span><a href="dashboard.html">DASHBOARD</a></span></div></div>
+  </aside>
+  <section class="content">
+    <div class="content-head"><div><div class="content-meta" id="archiveHeading">ALL ARCHIVE SECTIONS</div><div class="archive-card-note" id="archiveBreadcrumb">Awesome Piracy</div></div><div class="archive-toolbar"><select id="subsectionSelect"><option value="all">All subsections</option></select><select id="archiveSort"><option value="title">Title</option><option value="starred">Top Picks First</option><option value="section">Section</option></select></div></div>
+    <div id="archiveCards" class="cards"></div>
+  </section>
+</main>
+<footer class="site-footer"><div>NETRUNNA.COM // AWESOME PIRACY ARCHIVE BROWSER</div><div class="footer-links"><a href="index.html">Directory</a><a href="awsomepiracy/index.html">Source</a><a href="dashboard.html">Dashboard</a></div></footer>
+<script defer src="assets/js/catalog.js"></script>
+<script defer src="assets/js/awesome.js"></script>
+</body>
+</html>
