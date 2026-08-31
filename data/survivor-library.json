@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-29T15:39:53.418079+00:00",
+  "generated_at": "2026-08-31T18:01:35.501178+00:00",
   "source": "https://www.survivorlibrary.com/index.php/main-category-index/",
   "source_name": "Survivor Library",
   "notice": "Historical/public-domain reference material. Verify historical medical, chemical, food, and engineering guidance against modern safety standards before practical use.",
   "excluded_policy": "NETRUNNA omits clearly weapon, explosive, demolition, sabotage, and similar high-risk manuals from the automatic public index.",
-  "category_count": 168,
+  "category_count": 171,
   "resource_count": 13869,
   "categories": [
     {
@@ -310,6 +310,18 @@
     {
       "title": "Languages",
       "url": "https://www.survivorlibrary.com/index.php/library-languages/"
+    },
+    {
+      "title": "Last 30 Days",
+      "url": "https://www.survivorlibrary.com/index.php/last-30-days/"
+    },
+    {
+      "title": "Last 60 Days",
+      "url": "https://www.survivorlibrary.com/index.php/last-60-days/"
+    },
+    {
+      "title": "Last 90 Days",
+      "url": "https://www.survivorlibrary.com/index.php/last-90-days/"
     },
     {
       "title": "Laundry",
