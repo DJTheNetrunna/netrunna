@@ -1,4 +1,4 @@
-const CACHE="netrunna-shell-v6";
+const CACHE="netrunna-shell-v7";
 const CORE=[
   "./",
   "./index.html",
