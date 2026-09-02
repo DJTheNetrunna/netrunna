@@ -8,7 +8,7 @@ function readFavorites(){try{const rows=JSON.parse(localStorage.getItem("netrunn
 function persistFavorites(){localStorage.setItem("netrunna_favorites",JSON.stringify([...state.favorites]));renderStats();render()}
 function escapeHtml(v){return String(v??"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]))}
 function parseSize(v){const m=String(v||"").toLowerCase().match(/([\d.]+)\s*(kb|mb|gb)/);if(!m)return 0;const n=parseFloat(m[1]);return n*(m[2]==="gb"?1073741824:m[2]==="mb"?1048576:1024)}
-function routeHref(item){return`redirect.html?slug=${encodeURIComponent(item.slug)}`}
+function routeHref(item){const p=new URLSearchParams({slug:item.slug||"",url:item.url||"",title:item.title||"PDF ebook",category:"survivor-library",source:"survivor-library",section:item.source_section||""});return`redirect.html?${p.toString()}`}
 function prettyCategory(v){return String(v||"").replace(/_/g," ").replace(/\b\w/g,c=>c.toUpperCase())}
 function resetLimit(){state.limit=PAGE_SIZE}
 function setCategory(value){state.category=value;resetLimit();categorySelect.value=value;document.querySelectorAll(".category-btn").forEach(btn=>btn.classList.toggle("active",btn.dataset.category===value));syncUrl();render()}
