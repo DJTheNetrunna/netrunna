@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:58:39.820698+00:00",
+  "generated_at": "2026-09-15T15:35:53.394147+00:00",
   "source": "https://www.survivorlibrary.com/index.php/main-category-index/",
   "source_name": "Survivor Library",
   "notice": "Historical/public-domain reference material. Verify historical medical, chemical, food, and engineering guidance against modern safety standards before practical use.",
@@ -262158,34 +262158,6 @@
       "size": "2 mb"
     },
     {
-      "title": "Elementary_Civics_1916",
-      "slug": "sl-elementary-civics-1916-769eb5e8",
-      "description": "Downloadable historical/public-domain PDF from Survivor Library's Teaching collection.",
-      "category": "survivor-library",
-      "tags": [
-        "survivor-library",
-        "teaching",
-        "ebook",
-        "pdf",
-        "public-domain"
-      ],
-      "url": "https://www.survivorlibrary.com/library/elementary_civics_1916.pdf",
-      "affiliate_url": "",
-      "use_affiliate": false,
-      "rating": 4.2,
-      "views": "12 MB",
-      "status": "PDF",
-      "note": "Survivor Library // Teaching // downloadable PDF",
-      "dateAdded": "2026-07-01",
-      "source": "survivor-library",
-      "source_section": "Teaching",
-      "source_subsection": "PDF eBook",
-      "source_page": "https://www.survivorlibrary.com/index.php/library-teaching/",
-      "downloadable": true,
-      "file_type": "pdf",
-      "size": "12 mb"
-    },
-    {
       "title": "Equipment_For_Teaching_Home_Making_In_Texas_High_Schools_1922",
       "slug": "sl-equipment-for-teaching-home-making-in-texas-high-schools-1922-0936dff6",
       "description": "Downloadable historical/public-domain PDF from Survivor Library's Teaching collection.",
@@ -269002,6 +268974,34 @@
         "public-domain"
       ],
       "url": "https://www.survivorlibrary.com/library/elementary_civics-the_new_civics_1918.pdf",
+      "affiliate_url": "",
+      "use_affiliate": false,
+      "rating": 4.2,
+      "views": "4 MB",
+      "status": "PDF",
+      "note": "Survivor Library // Teaching Civics // downloadable PDF",
+      "dateAdded": "2026-07-01",
+      "source": "survivor-library",
+      "source_section": "Teaching Civics",
+      "source_subsection": "PDF eBook",
+      "source_page": "https://www.survivorlibrary.com/index.php/library-teaching_civics/",
+      "downloadable": true,
+      "file_type": "pdf",
+      "size": "4 mb"
+    },
+    {
+      "title": "Elementary_Civics_1916",
+      "slug": "sl-elementary-civics-1916-769eb5e8",
+      "description": "Downloadable historical/public-domain PDF from Survivor Library's Teaching Civics collection.",
+      "category": "survivor-library",
+      "tags": [
+        "survivor-library",
+        "teaching-civics",
+        "ebook",
+        "pdf",
+        "public-domain"
+      ],
+      "url": "https://www.survivorlibrary.com/library/elementary_civics_1916.pdf",
       "affiliate_url": "",
       "use_affiliate": false,
       "rating": 4.2,
