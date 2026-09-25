@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T15:50:37.543050+00:00",
+  "generated_at": "2026-09-25T15:51:03.106950+00:00",
   "source": "https://www.survivorlibrary.com/index.php/main-category-index/",
   "source_name": "Survivor Library",
   "notice": "Historical/public-domain reference material. Verify historical medical, chemical, food, and engineering guidance against modern safety standards before practical use.",
@@ -30234,34 +30234,6 @@
       "size": "12 mb"
     },
     {
-      "title": "Games_For_Boys_1920",
-      "slug": "sl-games-for-boys-1920-501c6e08",
-      "description": "Downloadable historical/public-domain PDF from Survivor Library's Books for Boys and Girls collection.",
-      "category": "survivor-library",
-      "tags": [
-        "survivor-library",
-        "books-for-boys-and-girls",
-        "ebook",
-        "pdf",
-        "public-domain"
-      ],
-      "url": "https://www.survivorlibrary.com/library/games_for_boys_1920.pdf",
-      "affiliate_url": "",
-      "use_affiliate": false,
-      "rating": 4.2,
-      "views": "2 MB",
-      "status": "PDF",
-      "note": "Survivor Library // Books for Boys and Girls // downloadable PDF",
-      "dateAdded": "2026-07-01",
-      "source": "survivor-library",
-      "source_section": "Books for Boys and Girls",
-      "source_subsection": "PDF eBook",
-      "source_page": "https://www.survivorlibrary.com/index.php/library-books_for_boys_and_girls/",
-      "downloadable": true,
-      "file_type": "pdf",
-      "size": "2 mb"
-    },
-    {
       "title": "Good_Health_For_Girls_And_Boys_1922",
       "slug": "sl-good-health-for-girls-and-boys-1922-a1b84908",
       "description": "Downloadable historical/public-domain PDF from Survivor Library's Books for Boys and Girls collection.",
@@ -31352,34 +31324,6 @@
       "downloadable": true,
       "file_type": "pdf",
       "size": "6 mb"
-    },
-    {
-      "title": "The_Boys_Book_Of_Hunting_And_Fishing_1916",
-      "slug": "sl-the-boys-book-of-hunting-and-fishing-1916-f919fe42",
-      "description": "Downloadable historical/public-domain PDF from Survivor Library's Books for Boys and Girls collection.",
-      "category": "survivor-library",
-      "tags": [
-        "survivor-library",
-        "books-for-boys-and-girls",
-        "ebook",
-        "pdf",
-        "public-domain"
-      ],
-      "url": "https://www.survivorlibrary.com/library/the_boys_book_of_hunting_and_fishing_1916.pdf",
-      "affiliate_url": "",
-      "use_affiliate": false,
-      "rating": 4.2,
-      "views": "17 MB",
-      "status": "PDF",
-      "note": "Survivor Library // Books for Boys and Girls // downloadable PDF",
-      "dateAdded": "2026-07-01",
-      "source": "survivor-library",
-      "source_section": "Books for Boys and Girls",
-      "source_subsection": "PDF eBook",
-      "source_page": "https://www.survivorlibrary.com/index.php/library-books_for_boys_and_girls/",
-      "downloadable": true,
-      "file_type": "pdf",
-      "size": "17 mb"
     },
     {
       "title": "The_Boys_Book_Of_Industrial_Information_1858",
@@ -39922,6 +39866,34 @@
       "size": "3 mb"
     },
     {
+      "title": "Games_For_Boys_1920",
+      "slug": "sl-games-for-boys-1920-501c6e08",
+      "description": "Downloadable historical/public-domain PDF from Survivor Library's Boy Scout Manuals collection.",
+      "category": "survivor-library",
+      "tags": [
+        "survivor-library",
+        "boy-scout-manuals",
+        "ebook",
+        "pdf",
+        "public-domain"
+      ],
+      "url": "https://www.survivorlibrary.com/library/games_for_boys_1920.pdf",
+      "affiliate_url": "",
+      "use_affiliate": false,
+      "rating": 4.2,
+      "views": "14 MB",
+      "status": "PDF",
+      "note": "Survivor Library // Boy Scout Manuals // downloadable PDF",
+      "dateAdded": "2026-07-01",
+      "source": "survivor-library",
+      "source_section": "Boy Scout Manuals",
+      "source_subsection": "PDF eBook",
+      "source_page": "https://www.survivorlibrary.com/index.php/library-boy_scout_manuals/",
+      "downloadable": true,
+      "file_type": "pdf",
+      "size": "14 mb"
+    },
+    {
       "title": "Harpers_Camping_And_Scouting-An_Outdoor_Guide_For_American_Boys_1911",
       "slug": "sl-harpers-camping-and-scouting-an-outdoor-guide-for-american-boys-1911-8ca517e0",
       "description": "Downloadable historical/public-domain PDF from Survivor Library's Boy Scout Manuals collection.",
@@ -40732,6 +40704,34 @@
       "downloadable": true,
       "file_type": "pdf",
       "size": "12 mb"
+    },
+    {
+      "title": "The_Boys_Book_Of_Hunting_And_Fishing_1916",
+      "slug": "sl-the-boys-book-of-hunting-and-fishing-1916-f919fe42",
+      "description": "Downloadable historical/public-domain PDF from Survivor Library's Boy Scout Manuals collection.",
+      "category": "survivor-library",
+      "tags": [
+        "survivor-library",
+        "boy-scout-manuals",
+        "ebook",
+        "pdf",
+        "public-domain"
+      ],
+      "url": "https://www.survivorlibrary.com/library/the_boys_book_of_hunting_and_fishing_1916.pdf",
+      "affiliate_url": "",
+      "use_affiliate": false,
+      "rating": 4.2,
+      "views": "3 MB",
+      "status": "PDF",
+      "note": "Survivor Library // Boy Scout Manuals // downloadable PDF",
+      "dateAdded": "2026-07-01",
+      "source": "survivor-library",
+      "source_section": "Boy Scout Manuals",
+      "source_subsection": "PDF eBook",
+      "source_page": "https://www.survivorlibrary.com/index.php/library-boy_scout_manuals/",
+      "downloadable": true,
+      "file_type": "pdf",
+      "size": "3 mb"
     },
     {
       "title": "The_Boys_Camp_Book-A_Guidebook_Based_Upon_The_Annual_Encampment_Of_A_Boy_Scout_Troop_1914",
@@ -181266,6 +181266,34 @@
       "size": "21 mb"
     },
     {
+      "title": "Library_Of_Health-Complete_Guide_To_Prevention_And_Cure_Of_Disease_1916",
+      "slug": "sl-library-of-health-complete-guide-to-prevention-and-cure-of-disease-1916-ab9a1de6",
+      "description": "Downloadable historical/public-domain PDF from Survivor Library's Medical Medicine 1900-1922 collection.",
+      "category": "survivor-library",
+      "tags": [
+        "survivor-library",
+        "medical-medicine-1900-1922",
+        "ebook",
+        "pdf",
+        "public-domain"
+      ],
+      "url": "https://www.survivorlibrary.com/library/library_of_health-complete_guide_to_prevention_and_cure_of_disease_1916.pdf",
+      "affiliate_url": "",
+      "use_affiliate": false,
+      "rating": 4.2,
+      "views": "168 MB",
+      "status": "PDF",
+      "note": "Survivor Library // Medical Medicine 1900-1922 // downloadable PDF",
+      "dateAdded": "2026-07-01",
+      "source": "survivor-library",
+      "source_section": "Medical Medicine 1900-1922",
+      "source_subsection": "PDF eBook",
+      "source_page": "https://www.survivorlibrary.com/index.php/library-medical_medicine_1900-1922/",
+      "downloadable": true,
+      "file_type": "pdf",
+      "size": "168 mb"
+    },
+    {
       "title": "Materia_Medica_Pharmacy_Pharmacology_And_Therapeutics_1901",
       "slug": "sl-materia-medica-pharmacy-pharmacology-and-therapeutics-1901-db2dd34b",
       "description": "Downloadable historical/public-domain PDF from Survivor Library's Medical Medicine 1900-1922 collection.",
@@ -182664,34 +182692,6 @@
       "downloadable": true,
       "file_type": "pdf",
       "size": "3 mb"
-    },
-    {
-      "title": "Library_Of_Health-Complete_Guide_To_Prevention_And_Cure_Of_Disease_1916",
-      "slug": "sl-library-of-health-complete-guide-to-prevention-and-cure-of-disease-1916-ab9a1de6",
-      "description": "Downloadable historical/public-domain PDF from Survivor Library's Medical Nursing collection.",
-      "category": "survivor-library",
-      "tags": [
-        "survivor-library",
-        "medical-nursing",
-        "ebook",
-        "pdf",
-        "public-domain"
-      ],
-      "url": "https://www.survivorlibrary.com/library/library_of_health-complete_guide_to_prevention_and_cure_of_disease_1916.pdf",
-      "affiliate_url": "",
-      "use_affiliate": false,
-      "rating": 4.2,
-      "views": "168 MB",
-      "status": "PDF",
-      "note": "Survivor Library // Medical Nursing // downloadable PDF",
-      "dateAdded": "2026-07-01",
-      "source": "survivor-library",
-      "source_section": "Medical Nursing",
-      "source_subsection": "PDF eBook",
-      "source_page": "https://www.survivorlibrary.com/index.php/library-medical_nursing/",
-      "downloadable": true,
-      "file_type": "pdf",
-      "size": "168 mb"
     },
     {
       "title": "Manual_Of_Splints_And_Appliances_1917",
